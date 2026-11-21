@@ -1,5 +1,9 @@
 # History
 
+## 2026-11-21 — Johnson–Kaya–Matzke path-spectrum conjecture
+
+Proved Conjecture 2.1 of Johnson, Kaya and Matzke: for every `n >= 2` and `1 <= k <= n-1`, the Babai `k`-spectrum of the path `P_n` consists of the integers from `ceil(n/(n-k))` to `k+1`. The authors had proved one inclusion; the other follows from the bound `n-k` on independent sets of the distance graph. The package contains an elementary written proof and a standard-library brute-force check of all 16,369 distance sets with `n <= 14`. The note is unrefereed; no Lean verification was performed.
+
 ## 2026-11-20 — Malek's conjecture
 
 Added a complete proposed proof of Malek's all-degree negative-transform subpermanent inequality, including equality. The reciprocal-mean capacity cost improves the optimized-slice estimate enough to separate the lower and upper constants in every proper degree. The permanent endpoint is credited to prior work. Two independent internal reviews and a standard-library rational checker found no gap; the proof is unrefereed. A bounded audit of primary literature, recent transform followups, and public repositories found no earlier complete endpoint theorem. The original 1989 full text remained inaccessible, while Cheon–Wanless's 2005 survey states the exact conjecture. This is a named subsidiary in the Minc site's linked literature, not an additional numbered entry. No Lean work was performed.

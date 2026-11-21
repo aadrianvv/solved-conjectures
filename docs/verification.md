@@ -81,6 +81,7 @@ c++ -std=c++20 -O3 results/distance-graph-densities/verify.cpp -o /tmp/verify-di
 /tmp/verify-distance-graphs
 python3 results/distance-graph-densities/counterexample.py
 python3 results/oravcova-sotak/verify.py
+python3 results/babai-spectrum-paths/verify.py
 python3 results/two-difference-motzkin/verify.py
 python3 results/symmetric-four-point-density/verify.py
 python3 results/nonmixed-gap-packing/verify.py
@@ -122,6 +123,10 @@ The existing result package's standard-library diagnostic is `python3 results/ba
 ## Oravcová–Soták distance-graph classification
 
 Run `python3 results/oravcova-sotak/verify.py` with assertions enabled. The standard-library script checks the 65 spectrum-table sets and their exact `L(D)`, the 62 periodic colourings, the three exceptional sets, the 37 loop certificates for the four one-parameter families, the two-parameter family, and the small cases of the clique lemma. The classification is [proved relative to](../results/oravcova-sotak/PROOF.md) the repository's five- to eight-speed spectrum classifications. The optional SAT scan in `search/` is independent of those classifications and is not run by CI. No Lean verification is included.
+
+## Johnson–Kaya–Matzke path spectra
+
+Run `python3 results/babai-spectrum-paths/verify.py` with assertions enabled. The standard-library script computes the chromatic number of every distance graph of `P_n` with `2 <= n <= 14`, 16,369 distance sets in all, and checks that each `Spec(P_n,k)` is the interval from `ceil(n/(n-k))` to `k+1`. It also checks the independence bound by exhaustive search for `n <= 10` and the integer `m` of Johnson–Kaya–Matzke's Theorem 2.3. The [written proof](../results/babai-spectrum-paths/PROOF.md) covers every `n`; the finite check confirms it in the stated range. No Lean verification is included.
 
 ## Lean proofs
 

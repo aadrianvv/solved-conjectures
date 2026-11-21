@@ -34,6 +34,7 @@ Curated by [Cinna Davis](https://1337isnot1337.github.io/) and GPT-6.2 Astra. Ex
 | [Random lonely runners on a fixed hyperplane](results/loneliness-on-a-hyperplane/) | ✅ |
 | [Distance graphs with three missing differences](results/distance-graph-densities/) | ✅ |
 | [Oravcová–Soták conjecture for five to eight distances](results/oravcova-sotak/) | ⬜ |
+| [Johnson–Kaya–Matzke conjecture on Babai spectra of paths](results/babai-spectrum-paths/) | ⬜ |
 | [Chow's conjecture](results/chow-conjecture/) | ⬜ |
 | [Rectangle partition asymptotics](results/rectangle-partition-asymptotics/) | ✅ |
 | [Generalized Bulgarian solitaire limit shapes](results/l-solitaire-limit-shapes/) | ✅ |

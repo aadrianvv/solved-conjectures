@@ -88,6 +88,7 @@ STATUS_LABEL_SLUGS = {
     "Growing rectangles": "rectangle-partition-asymptotics",
     "Distance graphs with three missing differences": "distance-graph-densities",
     "Oravcová–Soták conjecture for five to eight distances": "oravcova-sotak",
+    "Johnson–Kaya–Matzke conjecture on Babai spectra of paths": "babai-spectrum-paths",
     "Two-difference Motzkin theorem": "two-difference-motzkin",
     "Tight six speeds and critical planes": "tight-six-speeds",
     "Six-speed spectrum": "six-speed-spectrum",

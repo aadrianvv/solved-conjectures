@@ -108,6 +108,8 @@ jobs:
           python3 results/distance-graph-densities/counterexample.py
       - name: Verify the Oravcová–Soták distance-graph classification
         run: python3 results/oravcova-sotak/verify.py
+      - name: Check the Johnson–Kaya–Matzke path spectra
+        run: python3 results/babai-spectrum-paths/verify.py
       - name: Check the two-difference Motzkin formula
         run: python3 results/two-difference-motzkin/verify.py
       - name: Check the symmetric four-point packing and covering theorem
