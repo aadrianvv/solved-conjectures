@@ -101,6 +101,7 @@ STATUS_LABEL_SLUGS = {
     "Seven-speed spectrum": "seven-speed-spectrum",
     "Eight-speed spectrum": "eight-speed-spectrum",
     "Eleven-through-fourteen-runner equality": "tight-eleven-to-fourteen",
+    "Mazák–Zrubák conjecture on complete graphs minus an edge": "circular-index-complete-minus-edge",
 }
 
 

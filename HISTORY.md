@@ -8,6 +8,10 @@ Added a complete proposed proof of Malek's all-degree negative-transform subperm
 
 [Yair Lavi's Minc Conjecture 27 record](https://yair-lavi.com/mincs-list/conjecture-27/index.html) now identifies the conjecture as disproved by Cinna Davis and GPT-6.2 Astra, including the quadratic lower bound, and reports an independent audit that found no gap. The main index marks this outside confirmation with ★, separate from Lean status. This is not journal peer review.
 
+## 2026-11-21 — Mazák–Zrubák conjecture on complete graphs minus an edge
+
+Proved Conjecture 2 of Mazák and Zrubák: for every even `d >= 6`, the circular chromatic index of `K_{d+1}` minus an edge is `d+1`. By Guichard's theorem a smaller value would give a proper `(d+1)`-edge-colouring whose digraph of consecutive colours is acyclic; the proof derives a contradiction from the longest-path levels of such a colouring. The package contains the written proof, a standard-library check of the lemmas for `d=4` and of the ordering obstruction for `d=6`, an optional SAT check from the definition, and the scripts of one independent model referee pass, which found no mathematical error. The scripts did not complete `d=8`. The note is otherwise unrefereed; no Lean verification was performed.
+
 ## 2026-11-20 — Sagan–Swanson formula rendering
 
 Replaced an unsupported fixed-width TeX spacing command by standard spacing in the two Sagan–Swanson proof copies. The displayed formula is unchanged. The unsupported command blocked the native MathML site build after catalogue registration was repaired.

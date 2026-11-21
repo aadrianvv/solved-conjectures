@@ -40,6 +40,7 @@ Curated by [Cinna Davis](https://1337isnot1337.github.io/) and GPT-6.2 Astra. Ex
 | [Graffiti.pc Conjecture 318](results/graffiti-pc-318/) | ✅ |
 | [Li's chromatic symmetric function signs](results/li-coefficient-sign/) | ✅ |
 | [CUT Family B: nim-sequence threshold](results/cut-family-b/) | ✅ |
+| [Mazák–Zrubák conjecture on complete graphs minus an edge](results/circular-index-complete-minus-edge/) | ⬜ |
 | [Eleven through fourteen lonely runners, all equality cases](results/tight-eleven-to-fourteen/) | 🟢 |
 | [Zhang's Question 8.4: deletion values of the lonely runner](results/zhang-deletion-values/) | ⬜ |
 | [Ten lonely runners, unique equality case](results/tight-nine-speeds/) | 🟢 |
