@@ -128,6 +128,8 @@ jobs:
         run: python3 results/tight-eight-speeds/verify.py
       - name: Verify the unique equality case for ten lonely runners
         run: python3 results/tight-nine-speeds/verify.py
+      - name: Check Currie's conjecture on complexity 2n+1 and critical exponent
+        run: python3 results/currie-conjecture-19/verify.py
       - name: Verify Zhang's lonely-runner deletion values
         run: python3 results/zhang-deletion-values/verify.py
       - name: Verify the seven-speed loneliness spectrum

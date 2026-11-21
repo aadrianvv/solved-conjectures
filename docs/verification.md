@@ -93,6 +93,7 @@ python3 results/tight-eight-speeds/verify.py
 python3 results/eight-speed-spectrum/verify.py
 python3 results/seven-speed-spectrum/verify.py
 python3 results/tight-eleven-to-fourteen/verify.py
+python3 results/currie-conjecture-19/verify.py
 python3 results/tight-nine-speeds/verify.py
 python3 results/zhang-deletion-values/verify.py
 ```
@@ -106,6 +107,10 @@ Run `python3 results/perron-root-permanental-compounds/verify.py` with assertion
 ## Malek's conjecture
 
 Run `python3 results/malek-subpermanent/verify.py` with assertions enabled. The standard-library checker verifies the exact scalar upper constants, the two expansions used to compute them, the positive cubic certificate, the all-order shifted polynomial, and the remaining small-degree coefficient. These are algebraic checks of the [written proof](../results/malek-subpermanent/proof.md), not a finite matrix search. The unbounded statement rests on the analytic argument and its cited inputs. Two internal review receipts and a bounded source audit accompany it. No Lean verification is included.
+
+## Currie's complexity 2n+1 conjecture
+
+Run `python3 results/currie-conjecture-19/verify.py` with assertions enabled. The standard-library script checks the morphism identities of the reduction, exact factor sets of the fixed point, the hypotheses of the insertion lemmas and the short bispecial factors, and the critical-exponent inequality for the 72 families by exact arithmetic in `Q(λ)`. As cross-checks it compares the bispecial factors with an exhaustive enumeration up to length 300, checks the complexity `2n+1` up to length 300 for all twenty words, and searches long prefixes for repetitions. It takes about 15 to 50 seconds. The standard-library scripts in `review/` are the independent referee pass's checks and are not run by CI. The [written proof](../results/currie-conjecture-19/PROOF.md) covers all lengths; no Lean verification is included.
 
 ## Pula–Song–Wanless conjecture
 

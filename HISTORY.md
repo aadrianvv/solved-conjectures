@@ -12,6 +12,10 @@ Added a complete proposed proof of Malek's all-degree negative-transform subperm
 
 Replaced an unsupported fixed-width TeX spacing command by standard spacing in the two Sagan–Swanson proof copies. The displayed formula is unchanged. The unsupported command blocked the native MathML site build after catalogue registration was repaired.
 
+## 2026-11-21 — Currie's conjecture on complexity 2n+1 and critical exponent
+
+Proved Conjecture 19 of Currie's *Words with factor complexity 2n+1 and minimal critical exponent* (Electron. J. Combin. 33(3), #P3.31), which is Conjecture 1 of arXiv:2507.09387v3: each of the ten listed morphic images of the fixed point of `[01,2,02]` or of its reversal has factor complexity `2n+1` and critical exponent exactly `2+1/(λ²-1)`, where `λ` is the real root of `x³-2x²+x-1`, and the same holds for the ten arXiv morphisms. The words reduce to three languages; insertion lemmas describe all their bispecial factors, which are ordinary, and the critical-exponent inequality is proved for 72 families by exact arithmetic in `Q(λ)`. The package contains the written proof, a standard-library verifier for the computer-assisted steps with brute-force cross-checks, and the scripts of one independent model referee pass, which found no error. The note is otherwise unrefereed; no Lean verification was performed.
+
 ## 2026-11-20 — Oravcová–Soták distance-graph conjecture
 
 Added the classification of primitive distance sets of size five through eight with maximum chromatic number, relative to the repository's five-, six-, seven- and eight-speed spectrum classifications. The package contains a written proof, 62 periodic colourings, loop certificates for four one-parameter families, base loops for the two-parameter six-distance family, an independent standard-library verifier, and a separate SAT scan. The note is unrefereed and conditional on the spectrum classifications; no Lean verification was performed. Contributed by [@aadrianvv](https://github.com/aadrianvv) in [PR #144](https://github.com/1337isnot1337/solved-conjectures/pull/144).

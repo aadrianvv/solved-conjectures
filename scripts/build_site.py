@@ -66,6 +66,7 @@ STATUS_LABEL_SLUGS = {
     "Bernardi–Morales's delta-process conjecture": "bernardi-morales-delta",
     "Gilmore's crossing–nesting conjecture": "gilmore-crossing-nesting",
     "Chow's conjecture": "chow-conjecture",
+    "Currie's conjecture on complexity 2n+1 and critical exponent": "currie-conjecture-19",
     "Németh–Seberry–Shu conjecture": "nemeth-seberry-shu",
     "Sonntag–Teichert conjecture": "sonntag-teichert",
     "Horňák–Woźniak conjecture": "hornak-wozniak",
