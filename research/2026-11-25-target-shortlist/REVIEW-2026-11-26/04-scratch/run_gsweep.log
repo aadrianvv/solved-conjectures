@@ -1,0 +1,134 @@
+G-rule and Gamma-rule are edge exchanges
+Q* alpha Y=plain: 200 identifications, 0 failures
+Q* alpha Y=received: 7747 identifications, 0 failures
+Q* alpha Y=linked: 9845 identifications, 0 failures
+Q* beta Y=plain: 24 identifications, 0 failures
+Q* beta Y=received: 1035 identifications, 0 failures
+Q* beta Y=linked: 1129 identifications, 0 failures
+P* alpha Z=plain: 200 identifications, 0 failures
+P* alpha Z=received: 4718 identifications, 0 failures
+P* alpha Z=linked: 9449 identifications, 0 failures
+P* beta source: 74 identifications, 0 failures
+P* beta recipient: 922 identifications, 0 failures
+W0 absorbed A=plain: 63 identifications, 0 failures
+W0 absorbed A=type1: 1377 identifications, 0 failures
+W0 absorbed A=Gpendant: 2100 identifications, 0 failures
+Q* gamma Y=plain: 20 identifications, 0 failures
+Q* gamma Y=received: 490 identifications, 0 failures
+Q* gamma Y=linked: 408 identifications, 0 failures
+Gamma type2 Y=plain A=plain: 1102 identifications, 0 failures
+Gamma type2 Y=plain A=type1: 28813 identifications, 0 failures
+Gamma type2 Y=plain A=linked: 35203 identifications, 0 failures
+Gamma type2 Y=received A=plain: 30076 identifications, 0 failures
+Gamma type2 Y=received A=type1: 782118 identifications, 0 failures
+Gamma type2 Y=received A=linked: 753716 identifications, 0 failures
+Gamma type2 Y=linked A=plain: 21124 identifications, 0 failures
+Gamma type2 Y=linked A=type1: 510722 identifications, 0 failures
+Gamma type2 Y=linked A=linked: 437659 identifications, 0 failures
+Gamma Gtarget Y=plain A=plain: 4453 identifications, 0 failures
+Gamma Gtarget Y=plain A=type1: 0 identifications, 0 failures
+Gamma Gtarget Y=plain A=linked: 0 identifications, 0 failures
+Gamma Gtarget Y=received A=plain: 134149 identifications, 0 failures
+Gamma Gtarget Y=received A=type1: 0 identifications, 0 failures
+Gamma Gtarget Y=received A=linked: 0 identifications, 0 failures
+Gamma Gtarget Y=linked A=plain: 170389 identifications, 0 failures
+Gamma Gtarget Y=linked A=type1: 0 identifications, 0 failures
+Gamma Gtarget Y=linked A=linked: 0 identifications, 0 failures
+rotation R_k: 2774227 identifications, 0 failures
+rotation P_k Y=plain: 1062 identifications, 0 failures
+rotation P_k Y=received: 39248 identifications, 0 failures
+rotation P_k Y=linked: 53030 identifications, 0 failures
+odd triples with G-pendants: {('closed', 'simple cover'): 205, 'excluded (local diamond)': 243, ('open', 'simple cover'): 548, ('open', 'no cover, d1 in {A0,A2}'): 12}
+('Gamma Gtarget Y=linked A=linked', 'failures') 0
+('Gamma Gtarget Y=linked A=linked', 'identifications') 0
+('Gamma Gtarget Y=linked A=plain', 'alternative used') 25805
+('Gamma Gtarget Y=linked A=plain', 'excluded case') 18467
+('Gamma Gtarget Y=linked A=plain', 'failures') 0
+('Gamma Gtarget Y=linked A=plain', 'identifications') 170389
+('Gamma Gtarget Y=linked A=type1', 'failures') 0
+('Gamma Gtarget Y=linked A=type1', 'identifications') 0
+('Gamma Gtarget Y=plain A=linked', 'failures') 0
+('Gamma Gtarget Y=plain A=linked', 'identifications') 0
+('Gamma Gtarget Y=plain A=plain', 'alternative used') 843
+('Gamma Gtarget Y=plain A=plain', 'excluded case') 527
+('Gamma Gtarget Y=plain A=plain', 'failures') 0
+('Gamma Gtarget Y=plain A=plain', 'identifications') 4453
+('Gamma Gtarget Y=plain A=type1', 'failures') 0
+('Gamma Gtarget Y=plain A=type1', 'identifications') 0
+('Gamma Gtarget Y=received A=linked', 'failures') 0
+('Gamma Gtarget Y=received A=linked', 'identifications') 0
+('Gamma Gtarget Y=received A=plain', 'alternative used') 20044
+('Gamma Gtarget Y=received A=plain', 'excluded case') 16365
+('Gamma Gtarget Y=received A=plain', 'failures') 0
+('Gamma Gtarget Y=received A=plain', 'identifications') 134149
+('Gamma Gtarget Y=received A=type1', 'failures') 0
+('Gamma Gtarget Y=received A=type1', 'identifications') 0
+('Gamma type2 Y=linked A=linked', 'failures') 0
+('Gamma type2 Y=linked A=linked', 'identifications') 437659
+('Gamma type2 Y=linked A=plain', 'alternative used') 3188
+('Gamma type2 Y=linked A=plain', 'failures') 0
+('Gamma type2 Y=linked A=plain', 'identifications') 21124
+('Gamma type2 Y=linked A=type1', 'failures') 0
+('Gamma type2 Y=linked A=type1', 'identifications') 510722
+('Gamma type2 Y=plain A=linked', 'failures') 0
+('Gamma type2 Y=plain A=linked', 'identifications') 35203
+('Gamma type2 Y=plain A=plain', 'alternative used') 262
+('Gamma type2 Y=plain A=plain', 'failures') 0
+('Gamma type2 Y=plain A=plain', 'identifications') 1102
+('Gamma type2 Y=plain A=type1', 'failures') 0
+('Gamma type2 Y=plain A=type1', 'identifications') 28813
+('Gamma type2 Y=received A=linked', 'failures') 0
+('Gamma type2 Y=received A=linked', 'identifications') 753716
+('Gamma type2 Y=received A=plain', 'alternative used') 5083
+('Gamma type2 Y=received A=plain', 'failures') 0
+('Gamma type2 Y=received A=plain', 'identifications') 30076
+('Gamma type2 Y=received A=type1', 'failures') 0
+('Gamma type2 Y=received A=type1', 'identifications') 782118
+('P* alpha Z=linked', 'failures') 0
+('P* alpha Z=linked', 'identifications') 9449
+('P* alpha Z=plain', 'failures') 0
+('P* alpha Z=plain', 'identifications') 200
+('P* alpha Z=received', 'failures') 0
+('P* alpha Z=received', 'identifications') 4718
+('P* beta recipient', 'failures') 0
+('P* beta recipient', 'identifications') 922
+('P* beta source', 'failures') 0
+('P* beta source', 'identifications') 74
+('Q* alpha Y=linked', 'failures') 0
+('Q* alpha Y=linked', 'identifications') 9845
+('Q* alpha Y=plain', 'failures') 0
+('Q* alpha Y=plain', 'identifications') 200
+('Q* alpha Y=received', 'failures') 0
+('Q* alpha Y=received', 'identifications') 7747
+('Q* beta Y=linked', 'failures') 0
+('Q* beta Y=linked', 'identifications') 1129
+('Q* beta Y=plain', 'failures') 0
+('Q* beta Y=plain', 'identifications') 24
+('Q* beta Y=received', 'failures') 0
+('Q* beta Y=received', 'identifications') 1035
+('Q* gamma Y=linked', 'failures') 0
+('Q* gamma Y=linked', 'identifications') 408
+('Q* gamma Y=plain', 'failures') 0
+('Q* gamma Y=plain', 'identifications') 20
+('Q* gamma Y=received', 'failures') 0
+('Q* gamma Y=received', 'identifications') 490
+('W0 absorbed A=Gpendant', 'failures') 0
+('W0 absorbed A=Gpendant', 'identifications') 2100
+('W0 absorbed A=plain', 'failures') 0
+('W0 absorbed A=plain', 'identifications') 63
+('W0 absorbed A=type1', 'failures') 0
+('W0 absorbed A=type1', 'identifications') 1377
+('rotation P_k Y=linked', 'failures') 0
+('rotation P_k Y=linked', 'identifications') 53030
+('rotation P_k Y=plain', 'failures') 0
+('rotation P_k Y=plain', 'identifications') 1062
+('rotation P_k Y=received', 'failures') 0
+('rotation P_k Y=received', 'identifications') 39248
+('rotation R_k', 'failures') 0
+('rotation R_k', 'identifications') 2774227
+total failures 0
+
+real	10m30.124s
+user	0m0.030s
+sys	0m0.060s
+EXIT 0

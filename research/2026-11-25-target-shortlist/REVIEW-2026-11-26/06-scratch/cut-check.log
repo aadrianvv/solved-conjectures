@@ -1,0 +1,32 @@
+junction domain counts (8, 44, 83)
+arcs normalized 8 23 8 [('direct',), ((0, 0, (0, 0, 0)), (0, 0, (0, 0, 0))), ((0, 0, (0, 0, 0)), (0, 0, (0, 0, 0)), (0, 0, (0, 0, 0))), ((0, 0, (0, 0, 0)),), ((0, 0, (0, 2, 0)),), ((1, 0, (0, 0, 1)),), ((1, 0, (0, 1, 0)),), ((1, 0, (0, 0, 2)),)]
+parallel-path junction cases 3 216832
+parallel-path junction cases 4 2025366
+arbitrary cactus pair alphabet 852
+matrices first, middle, last, link 44 83 44 27
+initial incidence matrices 116
+cactus incidence status 10 6588 123 123
+cactus incidence status 20 11583 123 113
+cactus incidence status 30 17874 124 104
+cactus incidence status 40 24597 124 93
+cactus incidence status 50 30915 124 83
+cactus incidence status 60 37287 124 73
+cactus incidence status 70 42849 124 63
+cactus incidence status 80 51219 124 52
+cactus incidence status 90 57240 124 38
+cactus incidence status 100 64044 124 27
+cactus incidence status 110 72306 124 14
+cactus incidence status 120 79299 124 4
+cactus cycle closure 80919 124
+whole cactus traversed components 24
+all bridge joins verified 8198 {(False, True): 8, (True, False): 30, (False, False): 23, (True, True): 0}
+prototype sizes (False, True) 1 16
+prototype sizes (True, False) 3 26
+prototype sizes (False, False) 2 26
+probe sizes True (2, 3, 9, 9)
+probe sizes False (1, 2, 3, 5, 5, 8, 13)
+all two-ended cactus connectors use the same seven arc modes
+
+real	1m46.435s
+user	0m0.000s
+sys	0m0.031s

@@ -1,0 +1,4 @@
+5 {True: 135, 'graphs': 1} 0.3s
+6 {True: 224, 'graphs': 1} 0.4s
+7 {True: 1763, 'graphs': 2} 4.4s
+8 {True: 7972, 'graphs': 6} 26.2s

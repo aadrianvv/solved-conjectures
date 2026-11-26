@@ -1,0 +1,13 @@
+examples and generator cross-check passed
+{"order":5,"total":1,"byDegreeFour":[(1, 1)]}
+{"order":6,"total":8,"byDegreeFour":[(2, 4), (4, 3), (6, 1)]}
+{"order":7,"total":75,"byDegreeFour":[(1, 10), (3, 23), (5, 36), (7, 6)]}
+{"order":8,"total":666,"byDegreeFour":[(2, 62), (4, 262), (6, 309), (8, 33)]}
+{"order":9,"total":6975,"byDegreeFour":[(1, 149), (3, 737), (5, 3070), (7, 2774), (9, 245)]}
+{"order":10,"total":77937,"byDegreeFour":[(2, 1312), (4, 11328), (6, 36604), (8, 26666), (10, 2027)]}
+{"order":11,"total":943509,"byDegreeFour":[(1, 2096), (3, 22464), (5, 179659), (7, 446660), (9, 274053), (11, 18577)]}
+{"order":12,"total":12148600,"byDegreeFour":[(2, 32734), (4, 453988), (6, 2838060), (8, 5646214), (10, 2994347), (12, 183257)]}
+
+real	2m15.500s
+user	0m0.015s
+sys	0m0.047s

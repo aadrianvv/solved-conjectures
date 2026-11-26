@@ -1,0 +1,40 @@
+pair replacement and both uniform rotations re-partition the cycle edges
+odd-cycle triples, no M-triangle on an M-square {('closed', 'simple cover'): 125, 'excluded by hypothesis': 766, ('open', 'simple cover'): 386, ('open', 'no cover, d1 in {A0,A2}'): 12}
+odd-cycle triples, diamond-free {('closed', 'simple cover'): 259, 'excluded by hypothesis': 442, ('open', 'simple cover'): 564, ('open', 'no cover, d1 in {A0,A2}'): 24}
+('dense', 'odd type-2 cycles') 0
+('dense', 'remaining triangle trails') 515
+('dense', 'runs') 300
+('dense', 'runs satisfying Theorem A hypothesis') 0
+('dense', 'square defects') 928
+('far3', 'odd type-2 cycles') 0
+('far3', 'remaining triangle trails') 0
+('far3', 'runs') 300
+('far3', 'runs satisfying Theorem A hypothesis') 300
+('far3', 'square defects') 408
+('k5', 'odd type-2 cycles') 0
+('k5', 'remaining triangle trails') 128
+('k5', 'runs') 225
+('k5', 'runs satisfying Theorem A hypothesis') 9
+('k5', 'square defects') 228
+('random', 'odd type-2 cycles') 0
+('random', 'remaining triangle trails') 57
+('random', 'runs') 300
+('random', 'runs satisfying Theorem A hypothesis') 0
+('random', 'square defects') 360
+('small', 'odd type-2 cycles') 8
+('small', 'remaining triangle trails') 17172
+('small', 'runs') 30000
+('small', 'runs satisfying Theorem A hypothesis') 0
+('small', 'square defects') 40487
+('square', 'odd type-2 cycles') 0
+('square', 'remaining triangle trails') 309
+('square', 'runs') 300
+('square', 'runs satisfying Theorem A hypothesis') 0
+('square', 'square defects') 696
+triangle trail ('good', 'near bad pair') 3623
+triangle trail ('recipient', 'near bad pair') 389
+triangle trail ('source', 'near bad pair') 14169
+
+real	1m32.319s
+user	0m0.000s
+sys	0m0.046s

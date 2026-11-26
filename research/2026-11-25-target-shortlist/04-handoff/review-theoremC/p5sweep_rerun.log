@@ -1,0 +1,38 @@
+Theorem C exchanges re-partition their pieces
+D-rotation telescopes for L = 3..9
+S' A=plain: 12 identifications, 0 failures
+S' A=type1: 127 identifications, 0 failures
+S' A=Dpend: 72 identifications, 0 failures
+D alpha W' Z=plain: 10 identifications, 0 failures
+D alpha W' Z=received: 190 identifications, 0 failures
+D alpha W' Z=Dlinked: 60 identifications, 0 failures
+D beta source: 10 identifications, 0 failures
+D beta recipient: 95 identifications, 0 failures
+D gamma absorbed A'=plain: 8 identifications, 0 failures
+D gamma absorbed A'=type1: 91 identifications, 0 failures
+D gamma absorbed A'=Dpend: 32 identifications, 0 failures
+D gamma type2 A=plain A'=plain: 68 identifications, 0 failures
+D gamma type2 A=plain A'=type1: 1665 identifications, 0 failures
+D gamma type2 A=plain A'=Dpend: 577 identifications, 0 failures
+D gamma type2 A=type1 A'=plain: 1141 identifications, 0 failures
+D gamma type2 A=type1 A'=type1: 25065 identifications, 0 failures
+D gamma type2 A=type1 A'=Dpend: 10889 identifications, 0 failures
+D gamma type2 A=Dpend A'=plain: 525 identifications, 0 failures
+D gamma type2 A=Dpend A'=type1: 14042 identifications, 0 failures
+D gamma type2 A=Dpend A'=Dpend: 5342 identifications, 0 failures
+rule F A=plain A'=plain: 13 identifications, 0 failures
+rule F A=plain A'=type1: 305 identifications, 0 failures
+rule F A=plain A'=Dpend: 79 identifications, 0 failures
+rule F A=type1 A'=plain: 268 identifications, 0 failures
+rule F A=type1 A'=type1: 5156 identifications, 0 failures
+rule F A=type1 A'=Dpend: 1850 identifications, 0 failures
+rule F A=Dpend A'=plain: 122 identifications, 0 failures
+rule F A=Dpend A'=type1: 2827 identifications, 0 failures
+rule F A=Dpend A'=Dpend: 910 identifications, 0 failures
+D-rotation open A=plain: 6439 identifications, 0 failures
+D-rotation open A=type1: 174383 identifications, 0 failures
+D-rotation open A=Dpend: 57103 identifications, 0 failures
+D-rotation L=3 A=plain: 18 identifications, 0 failures
+D-rotation L=3 A=type1: 252 identifications, 0 failures
+D-rotation L=3 A=Dpend: 94 identifications, 0 failures
+total failures 0

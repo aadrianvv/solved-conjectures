@@ -1,0 +1,118 @@
+== end-to-end: graphs and planted generic data under the hypothesis ==
+   ('ALL', "Gamma' used") 8
+   ('ALL', 'G-config alpha') 329
+   ('ALL', 'G-config beta') 360
+   ('ALL', 'G-config gamma') 1206
+   ('ALL', 'G-pendant') 716
+   ('ALL', 'Gamma used (Gtarget)') 43
+   ('ALL', 'Gamma used (type-2)') 82
+   ('ALL', 'Gtarget cycle length 2') 18
+   ('ALL', 'Gtarget cycle length 3') 27
+   ('ALL', 'Gtarget cycle length 4') 23
+   ('ALL', 'Gtarget cycle length 5') 21
+   ('ALL', 'Gtarget cycle length 6') 24
+   ('ALL', 'Gtarget cycle length 7') 29
+   ('ALL', 'Gtarget edges') 903
+   ('ALL', 'Gtarget path length 1') 26
+   ('ALL', 'Gtarget path length 2') 16
+   ('ALL', 'Gtarget path length 3') 9
+   ('ALL', 'Gtarget path length 4') 12
+   ('ALL', 'Gtarget path length 5') 11
+   ('ALL', 'Gtarget path length 6') 9
+   ('ALL', 'Q_c with changed h-end (alpha-link)') 22
+   ('ALL', 'Q_c with changed h-end (received)') 23
+   ('ALL', 'absorption, type-0 link') 144
+   ('ALL', 'absorption, type-1 link') 73
+   ('ALL', 'alpha partner with 1 partner ends') 186
+   ('ALL', 'alpha partner with 2 partner ends') 50
+   ('ALL', 'cancelled configurations') 382
+   ('ALL', 'existing config alpha') 286
+   ('ALL', 'existing config beta') 358
+   ('ALL', 'existing config gamma') 869
+   ('ALL', 'odd Gtarget cycle: Gamma at a node') 48
+   ('ALL', 'odd Gtarget cycle: ROTATION') 29
+   ('ALL', 'odd type-2 cycle with G-pendant') 74
+   ('ALL', 'odd type-2 cycle: block') 75
+   ('ALL', 'received ends') 2007
+   ('graph-K5blocks', 'G-config alpha') 7
+   ('graph-K5blocks', 'Gtarget edges') 0
+   ('graph-K5blocks', 'M-triangles') 128
+   ('graph-K5blocks', 'alpha partner with 1 partner ends') 7
+   ('graph-K5blocks', 'cancelled configurations') 0
+   ('graph-K5blocks', 'diamonds avoiding M') 57
+   ('graph-K5blocks', 'diamonds through M') 0
+   ('graph-K5blocks', 'existing config alpha') 7
+   ('graph-K5blocks', 'first-sweep G-configurations') 7
+   ('graph-K5blocks', 'generation failed') 10
+   ('graph-K5blocks', 'graphs') 14
+   ('graph-K5blocks', 'non-M diamonds touching an M-triangle') 48
+   ('graph-K5blocks', 'received ends') 91
+   ('graph-K5blocks', 'verified decompositions') 112
+   ('graph-circulant', 'G-config alpha') 11
+   ('graph-circulant', 'G-config beta') 1
+   ('graph-circulant', 'G-config gamma') 2
+   ('graph-circulant', 'G-pendant') 2
+   ('graph-circulant', 'Gtarget edges') 0
+   ('graph-circulant', 'M-triangles') 103
+   ('graph-circulant', 'Q_c with changed h-end (received)') 3
+   ('graph-circulant', 'absorption, type-0 link') 2
+   ('graph-circulant', 'alpha partner with 1 partner ends') 11
+   ('graph-circulant', 'cancelled configurations') 0
+   ('graph-circulant', 'diamonds avoiding M') 84
+   ('graph-circulant', 'diamonds through M') 0
+   ('graph-circulant', 'existing config alpha') 11
+   ('graph-circulant', 'existing config beta') 1
+   ('graph-circulant', 'existing config gamma') 2
+   ('graph-circulant', 'first-sweep G-configurations') 14
+   ('graph-circulant', 'generation failed') 15
+   ('graph-circulant', 'graphs') 21
+   ('graph-circulant', 'non-M diamonds touching an M-triangle') 65
+   ('graph-circulant', 'received ends') 135
+   ('graph-circulant', 'verified decompositions') 168
+   ('planted', "Gamma' used") 8
+   ('planted', 'G-config alpha') 311
+   ('planted', 'G-config beta') 359
+   ('planted', 'G-config gamma') 1204
+   ('planted', 'G-pendant') 714
+   ('planted', 'Gamma used (Gtarget)') 43
+   ('planted', 'Gamma used (type-2)') 82
+   ('planted', 'Gtarget cycle length 2') 18
+   ('planted', 'Gtarget cycle length 3') 27
+   ('planted', 'Gtarget cycle length 4') 23
+   ('planted', 'Gtarget cycle length 5') 21
+   ('planted', 'Gtarget cycle length 6') 24
+   ('planted', 'Gtarget cycle length 7') 29
+   ('planted', 'Gtarget edges') 903
+   ('planted', 'Gtarget path length 1') 26
+   ('planted', 'Gtarget path length 2') 16
+   ('planted', 'Gtarget path length 3') 9
+   ('planted', 'Gtarget path length 4') 12
+   ('planted', 'Gtarget path length 5') 11
+   ('planted', 'Gtarget path length 6') 9
+   ('planted', 'Q_c with changed h-end (alpha-link)') 22
+   ('planted', 'Q_c with changed h-end (received)') 20
+   ('planted', 'absorption, type-0 link') 142
+   ('planted', 'absorption, type-1 link') 73
+   ('planted', 'alpha partner with 1 partner ends') 168
+   ('planted', 'alpha partner with 2 partner ends') 50
+   ('planted', 'cancelled configurations') 382
+   ('planted', 'diamonds avoiding M') 2523
+   ('planted', 'diamonds through M') 0
+   ('planted', 'existing config alpha') 268
+   ('planted', 'existing config beta') 357
+   ('planted', 'existing config gamma') 867
+   ('planted', 'first-sweep G-configurations') 1874
+   ('planted', 'instances with a diamond avoiding M') 374
+   ('planted', 'instances') 421
+   ('planted', 'non-M diamonds touching an M-triangle') 1328
+   ('planted', 'odd Gtarget cycle: Gamma at a node') 48
+   ('planted', 'odd Gtarget cycle: ROTATION') 29
+   ('planted', 'odd type-2 cycle with G-pendant') 74
+   ('planted', 'odd type-2 cycle: block') 75
+   ('planted', 'received ends') 1781
+   ('planted', 'repair failed (skipped)') 179
+   ('planted', 'verified decompositions') 421
+  failures: 0
+elapsed 272s
+ALL CHECKS PASSED
+exit 0

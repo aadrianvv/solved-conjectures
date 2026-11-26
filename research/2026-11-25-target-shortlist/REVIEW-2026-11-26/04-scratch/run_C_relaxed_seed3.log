@@ -1,0 +1,74 @@
+== planted generic (M,r,s) with (P1)-(P3)+(P5) ==
+== graphs: Lemma 1 constructions satisfying (P5) ==
+   ('ALL', 'D-cycle length 3') 96
+   ('ALL', 'D-cycle length 4') 84
+   ('ALL', 'D-cycle length 5') 97
+   ('ALL', 'D-cycle length 6') 83
+   ('ALL', 'D-cycle length 7') 98
+   ('ALL', 'D-path length 1') 83
+   ('ALL', 'D-path length 2') 48
+   ('ALL', 'D-path length 3') 44
+   ('ALL', 'D-path length 4') 44
+   ('ALL', 'D-path length 5') 39
+   ('ALL', 'D-pendant on odd type-2 cycle') 816
+   ('ALL', 'D-pendant') 1104
+   ('ALL', 'X2 alpha') 819
+   ('ALL', 'X2 beta') 1115
+   ('ALL', 'X2 gamma') 3909
+   ('ALL', 'odd type-2 cycle: block') 537
+   ('ALL', 'odd type-2 cycle: rotation') 201
+   ('ALL', 'odd type-2 cycles') 738
+   ('ALL', 'rule F') 232
+   ('ALL', 'rule GammaD') 255
+   ('ALL', 'rule absorb') 862
+   ('ALL', 'rule alpha') 673
+   ('ALL', 'rule beta') 1104
+   ('ALL', 'rule rotation') 2293
+   ('K5blocks', 'D-path length 1') 1
+   ('K5blocks', 'X2 alpha') 24
+   ('K5blocks', 'X2 gamma') 1
+   ('K5blocks', 'first-sweep X2 sources') 25
+   ('K5blocks', 'graphs') 30
+   ('K5blocks', 'odd type-2 cycles') 0
+   ('K5blocks', 'rule absorb') 1
+   ('K5blocks', 'rule alpha') 23
+   ('K5blocks', 'verified decompositions') 76
+   ('circulant', 'D-path length 1') 1
+   ('circulant', 'X2 alpha') 32
+   ('circulant', 'X2 gamma') 2
+   ('circulant', 'first-sweep X2 sources') 34
+   ('circulant', 'graphs') 40
+   ('circulant', 'odd type-2 cycles') 0
+   ('circulant', 'rule absorb') 2
+   ('circulant', 'rule alpha') 31
+   ('circulant', 'verified decompositions') 110
+   ('planted', 'D-cycle length 3') 96
+   ('planted', 'D-cycle length 4') 84
+   ('planted', 'D-cycle length 5') 97
+   ('planted', 'D-cycle length 6') 83
+   ('planted', 'D-cycle length 7') 98
+   ('planted', 'D-path length 1') 81
+   ('planted', 'D-path length 2') 48
+   ('planted', 'D-path length 3') 44
+   ('planted', 'D-path length 4') 44
+   ('planted', 'D-path length 5') 39
+   ('planted', 'D-pendant on odd type-2 cycle') 816
+   ('planted', 'D-pendant') 1104
+   ('planted', 'X2 alpha') 763
+   ('planted', 'X2 beta') 1115
+   ('planted', 'X2 gamma') 3906
+   ('planted', 'first-sweep X2 sources') 5784
+   ('planted', 'odd type-2 cycle: block') 537
+   ('planted', 'odd type-2 cycle: rotation') 201
+   ('planted', 'odd type-2 cycles') 738
+   ('planted', 'repair failed (skipped)') 59
+   ('planted', 'rule F') 232
+   ('planted', 'rule GammaD') 255
+   ('planted', 'rule absorb') 859
+   ('planted', 'rule alpha') 619
+   ('planted', 'rule beta') 1104
+   ('planted', 'rule rotation') 2293
+   ('planted', 'verified decompositions') 1141
+elapsed 117s
+ALL CHECKS PASSED
+EXIT 0

@@ -1,0 +1,50 @@
+Exact terminal output excerpts retained from the research runs.
+
+Final standalone cactus checker
+junction domain counts (8, 44, 83)
+parallel-path junction cases 3 216832
+parallel-path junction cases 4 2025366
+cactus cycle closure 80919 124
+whole cactus traversed components 24
+all bridge joins verified 8198 {(False, True): 8, (True, False): 30, (False, False): 23, (True, True): 0}
+prototype sizes (False, True) 1 16
+prototype sizes (True, False) 3 26
+prototype sizes (False, False) 2 26
+probe sizes True (2, 3, 9, 9)
+probe sizes False (1, 2, 3, 5, 5, 8, 13)
+all two-ended cactus connectors use the same seven arc modes
+Exit code 0.
+
+Private cactus petals
+private cactus two-incidence prototypes 53
+Exit code 0.
+
+Mixed cactus and noncactus graph search
+noncactus probes: 7 unrestricted and 4 distinct
+mixed cactus/noncactus order=8, roots=740453, solver queries=2318782
+Exit code 0.
+
+Three-port exact join scan
+three-link scan complete: 227 marked fragments and 13504026 joins
+Exit code 0.
+
+Kernel producer with separately written witnesses
+initial K4 combinations: 46757314560
+all decorated K4 cases complete, witnesses=692 seconds=77,5
+initial case rank3-triangle: 1574742400; permutations=8
+all rank3-triangle cases complete: total=1574742400 witnesses=484 seconds=1,1
+initial case rank3-double-square: 293850726400; permutations=16
+all rank3-double-square cases complete: total=293850726400 witnesses=1366 seconds=79,4
+Both producers exited 0. The independent coverage checker was interrupted after starting its K4 case.
+
+Additional completed port producer cases
+initial case port-theta-hub: 8180480; permutations=6
+all port-theta-hub cases complete: total=8180480 witnesses=865 seconds=0,8
+initial case port-theta-arc: 3816243200; permutations=4
+all port-theta-arc cases complete: total=3816243200 witnesses=6596 seconds=15,5
+The same process was interrupted during the subsequent port-k4-hub case.
+
+Alternate two-cut series scan
+series seeds n=8 pairs=425586, antichain=45
+closure complete, 16446 compositions with size=10000, 96 minimal profiles
+Exit code 0.

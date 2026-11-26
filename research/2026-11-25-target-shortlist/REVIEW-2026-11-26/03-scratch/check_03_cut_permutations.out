@@ -1,0 +1,5 @@
+{"testedMatching":390625,"requiredMatching":170565,"incompatibleMatching":12182,"testedStarAndEdge":45800,"testedCrossingPath":10000,"testedUniversalTerminal":5000}
+
+real	0m11.201s
+user	0m0.000s
+sys	0m0.031s

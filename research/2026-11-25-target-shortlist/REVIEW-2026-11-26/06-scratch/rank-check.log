@@ -1,0 +1,15 @@
+2 2 1 16 2
+3 2 3 73 28
+3 3 6 813 245
+3 4 9 7357 1388
+4 2 13 7555 1477
+4 3 26 13124 3237
+4 4 52 89480 20981
+4 5 74 470424 75289
+4 6 87 1781720 220942
+Verified all normalized noncactus cases through cycle rank four.
+
+real	3m18.118s
+user	0m0.000s
+sys	0m0.015s
+exit 0

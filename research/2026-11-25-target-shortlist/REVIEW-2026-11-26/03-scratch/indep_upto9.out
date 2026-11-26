@@ -1,0 +1,12 @@
+{"order":2,"isoClassesMaxDeg4":2,"pcf5Failures":0,"censusClassIsoClasses":0}
+{"order":3,"isoClassesMaxDeg4":4,"pcf5Failures":0,"censusClassIsoClasses":0}
+{"order":4,"isoClassesMaxDeg4":11,"pcf5Failures":0,"censusClassIsoClasses":0}
+{"order":5,"isoClassesMaxDeg4":34,"pcf5Failures":0,"censusClassIsoClasses":1}
+{"order":6,"isoClassesMaxDeg4":122,"pcf5Failures":0,"censusClassIsoClasses":5}
+{"order":7,"isoClassesMaxDeg4":510,"pcf5Failures":0,"censusClassIsoClasses":22}
+{"order":8,"isoClassesMaxDeg4":2590,"pcf5Failures":0,"censusClassIsoClasses":100}
+{"order":9,"isoClassesMaxDeg4":15471,"pcf5Failures":0,"censusClassIsoClasses":581}
+
+real	2m1.995s
+user	0m0.015s
+sys	0m0.000s

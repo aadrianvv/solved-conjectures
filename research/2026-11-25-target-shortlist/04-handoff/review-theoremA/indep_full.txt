@@ -1,0 +1,353 @@
+== Part 1: own Lemma 4 enumeration ==
+   ('closed', 'cover') 125
+   ('open', 'cover') 386
+   ('open', 'no cover') 12
+   ('open', 'no cover, d1 == A0') 12
+   ('open', 'no cover, d1 in {A0,A2}') 12
+   excluded 766
+== Part 2: graph families, own Lemma 1 construction + sweep ==
+== Part 3: generic (M,r,s) data with planted odd type-2 cycles ==
+   ('circulant', 'Lemma4 realized: block with cover') 1
+   ('circulant', 'M-triangles in hypothesis runs') 140
+   ('circulant', 'defects') 760
+   ('circulant', 'graphs with M-squares') 48
+   ('circulant', 'graphs with M-triangles') 5
+   ('circulant', 'graphs') 48
+   ('circulant', 'hypothesis holds') 480
+   ('circulant', 'odd cycle length 3') 1
+   ('circulant', 'odd cycles') 1
+   ('circulant', 'runs') 480
+   ('circulant', 'type-1 trades') 70
+   ('circulant', 'verified P5-decompositions (hypothesis)') 480
+   ('cycle-square', 'M-triangles in hypothesis runs') 0
+   ('cycle-square', 'defects') 350
+   ('cycle-square', 'graphs with M-squares') 47
+   ('cycle-square', 'graphs with M-triangles') 0
+   ('cycle-square', 'graphs') 48
+   ('cycle-square', 'hypothesis holds') 480
+   ('cycle-square', 'odd cycles') 0
+   ('cycle-square', 'runs') 480
+   ('cycle-square', 'type-1 trades') 17
+   ('cycle-square', 'verified P5-decompositions (hypothesis)') 480
+   ('generic small', 'M-triangles in hypothesis runs') 468
+   ('generic small', 'defects') 2727
+   ('generic small', 'hypothesis holds') 1348
+   ('generic small', 'non-simple pieces (hypothesis fails)') 130
+   ('generic small', 'odd cycles') 0
+   ('generic small', 'runs') 1950
+   ('generic small', 'type-1 trades') 300
+   ('generic small', 'verified P5-decompositions (hypothesis)') 1348
+   ('k5', 'M-triangles in hypothesis runs') 0
+   ('k5', 'defects') 76
+   ('k5', 'graphs with M-squares') 28
+   ('k5', 'graphs with M-triangles') 0
+   ('k5', 'graphs') 48
+   ('k5', 'hypothesis holds') 480
+   ('k5', 'odd cycles') 0
+   ('k5', 'runs') 480
+   ('k5', 'verified P5-decompositions (hypothesis)') 480
+   ('line-cubic', 'M-triangles in hypothesis runs') 0
+   ('line-cubic', 'defects') 475
+   ('line-cubic', 'graphs with M-squares') 60
+   ('line-cubic', 'graphs with M-triangles') 0
+   ('line-cubic', 'graphs') 60
+   ('line-cubic', 'hypothesis holds') 600
+   ('line-cubic', 'odd cycles') 0
+   ('line-cubic', 'runs') 600
+   ('line-cubic', 'type-1 trades') 25
+   ('line-cubic', 'verified P5-decompositions (hypothesis)') 600
+   ('octahedra', 'M-triangles in hypothesis runs') 0
+   ('octahedra', 'defects') 99
+   ('octahedra', 'graphs with M-squares') 34
+   ('octahedra', 'graphs with M-triangles') 0
+   ('octahedra', 'graphs') 48
+   ('octahedra', 'hypothesis holds') 480
+   ('octahedra', 'odd cycles') 0
+   ('octahedra', 'runs') 480
+   ('octahedra', 'verified P5-decompositions (hypothesis)') 480
+   ('planted L=3 changed', 'Lemma4 realized: block with cover') 135
+   ('planted L=3 changed', 'M-triangles in hypothesis runs') 145
+   ('planted L=3 changed', 'defects') 755
+   ('planted L=3 changed', 'hypothesis holds') 112
+   ('planted L=3 changed', 'non-simple pieces (hypothesis fails)') 3
+   ('planted L=3 changed', 'odd cycle length 3') 135
+   ('planted L=3 changed', 'odd cycles') 135
+   ('planted L=3 changed', 'runs') 135
+   ('planted L=3 changed', 'type-1 trades') 245
+   ('planted L=3 changed', 'verified P5-decompositions (hypothesis)') 112
+   ('planted L=3 changed-minus', 'Lemma4 realized: block with cover') 25
+   ('planted L=3 changed-minus', 'defects') 172
+   ('planted L=3 changed-minus', 'hypothesis holds') 0
+   ('planted L=3 changed-minus', 'non-simple pieces (hypothesis fails)') 3
+   ('planted L=3 changed-minus', 'odd cycle length 3') 25
+   ('planted L=3 changed-minus', 'odd cycles') 25
+   ('planted L=3 changed-minus', 'runs') 25
+   ('planted L=3 changed-minus', 'type-1 trades') 72
+   ('planted L=3 changed-minus', 'uniform rotation pattern present (rotation verified)') 22
+   ('planted L=3 changed-plus', 'Lemma4 realized: block with cover') 150
+   ('planted L=3 changed-plus', 'M-triangles in hypothesis runs') 113
+   ('planted L=3 changed-plus', 'defects') 1030
+   ('planted L=3 changed-plus', 'hypothesis holds') 118
+   ('planted L=3 changed-plus', 'non-simple pieces (hypothesis fails)') 3
+   ('planted L=3 changed-plus', 'odd cycle length 3') 150
+   ('planted L=3 changed-plus', 'odd cycles') 150
+   ('planted L=3 changed-plus', 'runs') 150
+   ('planted L=3 changed-plus', 'type-1 trades') 431
+   ('planted L=3 changed-plus', 'uniform rotation pattern present (rotation verified)') 127
+   ('planted L=3 changed-plus', 'verified P5-decompositions (hypothesis)') 118
+   ('planted L=3 fresh', 'Lemma4 realized: block with cover') 131
+   ('planted L=3 fresh', 'M-triangles in hypothesis runs') 101
+   ('planted L=3 fresh', 'defects') 521
+   ('planted L=3 fresh', 'hypothesis holds') 95
+   ('planted L=3 fresh', 'non-simple pieces (hypothesis fails)') 5
+   ('planted L=3 fresh', 'odd cycle length 3') 131
+   ('planted L=3 fresh', 'odd cycles') 131
+   ('planted L=3 fresh', 'runs') 131
+   ('planted L=3 fresh', 'type-1 trades') 23
+   ('planted L=3 fresh', 'verified P5-decompositions (hypothesis)') 95
+   ('planted L=3 minus', 'Lemma4 realized: block with cover') 24
+   ('planted L=3 minus', 'defects') 88
+   ('planted L=3 minus', 'hypothesis holds') 0
+   ('planted L=3 minus', 'non-simple pieces (hypothesis fails)') 0
+   ('planted L=3 minus', 'odd cycle length 3') 24
+   ('planted L=3 minus', 'odd cycles') 24
+   ('planted L=3 minus', 'runs') 24
+   ('planted L=3 minus', 'type-1 trades') 4
+   ('planted L=3 minus', 'uniform rotation pattern present (rotation verified)') 21
+   ('planted L=3 plus', 'Lemma4 realized: block with cover') 116
+   ('planted L=3 plus', 'M-triangles in hypothesis runs') 108
+   ('planted L=3 plus', 'defects') 451
+   ('planted L=3 plus', 'hypothesis holds') 93
+   ('planted L=3 plus', 'non-simple pieces (hypothesis fails)') 1
+   ('planted L=3 plus', 'odd cycle length 3') 116
+   ('planted L=3 plus', 'odd cycles') 116
+   ('planted L=3 plus', 'runs') 116
+   ('planted L=3 plus', 'type-1 trades') 26
+   ('planted L=3 plus', 'uniform rotation pattern present (rotation verified)') 98
+   ('planted L=3 plus', 'verified P5-decompositions (hypothesis)') 93
+   ('planted L=5 changed', 'Lemma4 realized: block with cover') 654
+   ('planted L=5 changed', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 1
+   ('planted L=5 changed', 'M-triangles in hypothesis runs') 135
+   ('planted L=5 changed', 'defects') 1153
+   ('planted L=5 changed', 'hypothesis holds') 105
+   ('planted L=5 changed', 'non-simple pieces (hypothesis fails)') 2
+   ('planted L=5 changed', 'odd cycle length 5') 131
+   ('planted L=5 changed', 'odd cycles') 131
+   ('planted L=5 changed', 'runs') 131
+   ('planted L=5 changed', 'type-1 trades') 391
+   ('planted L=5 changed', 'verified P5-decompositions (hypothesis)') 105
+   ('planted L=5 changed-minus', 'Lemma4 realized: block with cover') 15
+   ('planted L=5 changed-minus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 160
+   ('planted L=5 changed-minus', 'defects') 378
+   ('planted L=5 changed-minus', 'hypothesis holds') 0
+   ('planted L=5 changed-minus', 'non-simple pieces (hypothesis fails)') 10
+   ('planted L=5 changed-minus', 'odd cycle length 5') 35
+   ('planted L=5 changed-minus', 'odd cycles') 35
+   ('planted L=5 changed-minus', 'rotation used') 29
+   ('planted L=5 changed-minus', 'runs') 35
+   ('planted L=5 changed-minus', 'type-1 trades') 169
+   ('planted L=5 changed-minus', 'uniform rotation pattern present (rotation verified)') 29
+   ('planted L=5 changed-plus', 'Lemma4 realized: block with cover') 43
+   ('planted L=5 changed-plus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 707
+   ('planted L=5 changed-plus', 'M-triangles in hypothesis runs') 166
+   ('planted L=5 changed-plus', 'defects') 1601
+   ('planted L=5 changed-plus', 'hypothesis holds') 127
+   ('planted L=5 changed-plus', 'non-simple pieces (hypothesis fails)') 1
+   ('planted L=5 changed-plus', 'odd cycle length 5') 150
+   ('planted L=5 changed-plus', 'odd cycles') 150
+   ('planted L=5 changed-plus', 'rotation used') 129
+   ('planted L=5 changed-plus', 'runs') 150
+   ('planted L=5 changed-plus', 'type-1 trades') 731
+   ('planted L=5 changed-plus', 'uniform rotation pattern present (rotation verified)') 129
+   ('planted L=5 changed-plus', 'verified P5-decompositions (hypothesis)') 127
+   ('planted L=5 fresh', 'Lemma4 realized: block with cover') 633
+   ('planted L=5 fresh', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 2
+   ('planted L=5 fresh', 'M-triangles in hypothesis runs') 164
+   ('planted L=5 fresh', 'defects') 748
+   ('planted L=5 fresh', 'hypothesis holds') 100
+   ('planted L=5 fresh', 'non-simple pieces (hypothesis fails)') 1
+   ('planted L=5 fresh', 'odd cycle length 5') 127
+   ('planted L=5 fresh', 'odd cycles') 127
+   ('planted L=5 fresh', 'runs') 127
+   ('planted L=5 fresh', 'type-1 trades') 18
+   ('planted L=5 fresh', 'verified P5-decompositions (hypothesis)') 100
+   ('planted L=5 minus', 'Lemma4 realized: block with cover') 8
+   ('planted L=5 minus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 102
+   ('planted L=5 minus', 'defects') 132
+   ('planted L=5 minus', 'hypothesis holds') 0
+   ('planted L=5 minus', 'non-simple pieces (hypothesis fails)') 2
+   ('planted L=5 minus', 'odd cycle length 5') 22
+   ('planted L=5 minus', 'odd cycles') 22
+   ('planted L=5 minus', 'rotation used') 18
+   ('planted L=5 minus', 'runs') 22
+   ('planted L=5 minus', 'type-1 trades') 4
+   ('planted L=5 minus', 'uniform rotation pattern present (rotation verified)') 18
+   ('planted L=5 plus', 'Lemma4 realized: block with cover') 36
+   ('planted L=5 plus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 474
+   ('planted L=5 plus', 'M-triangles in hypothesis runs') 90
+   ('planted L=5 plus', 'defects') 588
+   ('planted L=5 plus', 'hypothesis holds') 82
+   ('planted L=5 plus', 'non-simple pieces (hypothesis fails)') 2
+   ('planted L=5 plus', 'odd cycle length 5') 102
+   ('planted L=5 plus', 'odd cycles') 102
+   ('planted L=5 plus', 'rotation used') 85
+   ('planted L=5 plus', 'runs') 102
+   ('planted L=5 plus', 'type-1 trades') 22
+   ('planted L=5 plus', 'uniform rotation pattern present (rotation verified)') 85
+   ('planted L=5 plus', 'verified P5-decompositions (hypothesis)') 82
+   ('planted L=7 changed', 'Lemma4 realized: block with cover') 902
+   ('planted L=7 changed', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 1
+   ('planted L=7 changed', 'M-triangles in hypothesis runs') 117
+   ('planted L=7 changed', 'defects') 1537
+   ('planted L=7 changed', 'hypothesis holds') 104
+   ('planted L=7 changed', 'non-simple pieces (hypothesis fails)') 5
+   ('planted L=7 changed', 'odd cycle length 7') 129
+   ('planted L=7 changed', 'odd cycles') 129
+   ('planted L=7 changed', 'runs') 129
+   ('planted L=7 changed', 'type-1 trades') 545
+   ('planted L=7 changed', 'verified P5-decompositions (hypothesis)') 104
+   ('planted L=7 changed-minus', 'Lemma4 realized: block with cover') 16
+   ('planted L=7 changed-minus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 208
+   ('planted L=7 changed-minus', 'defects') 472
+   ('planted L=7 changed-minus', 'hypothesis holds') 0
+   ('planted L=7 changed-minus', 'non-simple pieces (hypothesis fails)') 3
+   ('planted L=7 changed-minus', 'odd cycle length 7') 32
+   ('planted L=7 changed-minus', 'odd cycles') 32
+   ('planted L=7 changed-minus', 'rotation used') 24
+   ('planted L=7 changed-minus', 'runs') 32
+   ('planted L=7 changed-minus', 'type-1 trades') 217
+   ('planted L=7 changed-minus', 'uniform rotation pattern present (rotation verified)') 24
+   ('planted L=7 changed-plus', 'Lemma4 realized: block with cover') 50
+   ('planted L=7 changed-plus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 1000
+   ('planted L=7 changed-plus', 'M-triangles in hypothesis runs') 163
+   ('planted L=7 changed-plus', 'defects') 2199
+   ('planted L=7 changed-plus', 'hypothesis holds') 127
+   ('planted L=7 changed-plus', 'non-simple pieces (hypothesis fails)') 3
+   ('planted L=7 changed-plus', 'odd cycle length 7') 150
+   ('planted L=7 changed-plus', 'odd cycles') 150
+   ('planted L=7 changed-plus', 'rotation used') 127
+   ('planted L=7 changed-plus', 'runs') 150
+   ('planted L=7 changed-plus', 'type-1 trades') 1026
+   ('planted L=7 changed-plus', 'uniform rotation pattern present (rotation verified)') 127
+   ('planted L=7 changed-plus', 'verified P5-decompositions (hypothesis)') 127
+   ('planted L=7 fresh', 'Lemma4 realized: block with cover') 860
+   ('planted L=7 fresh', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 1
+   ('planted L=7 fresh', 'M-triangles in hypothesis runs') 106
+   ('planted L=7 fresh', 'defects') 965
+   ('planted L=7 fresh', 'hypothesis holds') 94
+   ('planted L=7 fresh', 'non-simple pieces (hypothesis fails)') 0
+   ('planted L=7 fresh', 'odd cycle length 7') 123
+   ('planted L=7 fresh', 'odd cycles') 123
+   ('planted L=7 fresh', 'runs') 123
+   ('planted L=7 fresh', 'type-1 trades') 30
+   ('planted L=7 fresh', 'verified P5-decompositions (hypothesis)') 94
+   ('planted L=7 minus', 'Lemma4 realized: block with cover') 2
+   ('planted L=7 minus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 173
+   ('planted L=7 minus', 'defects') 191
+   ('planted L=7 minus', 'hypothesis holds') 0
+   ('planted L=7 minus', 'non-simple pieces (hypothesis fails)') 0
+   ('planted L=7 minus', 'odd cycle length 7') 25
+   ('planted L=7 minus', 'odd cycles') 25
+   ('planted L=7 minus', 'rotation used') 24
+   ('planted L=7 minus', 'runs') 25
+   ('planted L=7 minus', 'type-1 trades') 1
+   ('planted L=7 minus', 'uniform rotation pattern present (rotation verified)') 24
+   ('planted L=7 plus', 'Lemma4 realized: block with cover') 43
+   ('planted L=7 plus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 587
+   ('planted L=7 plus', 'M-triangles in hypothesis runs') 88
+   ('planted L=7 plus', 'defects') 699
+   ('planted L=7 plus', 'hypothesis holds') 75
+   ('planted L=7 plus', 'non-simple pieces (hypothesis fails)') 1
+   ('planted L=7 plus', 'odd cycle length 7') 90
+   ('planted L=7 plus', 'odd cycles') 90
+   ('planted L=7 plus', 'rotation used') 72
+   ('planted L=7 plus', 'runs') 90
+   ('planted L=7 plus', 'type-1 trades') 23
+   ('planted L=7 plus', 'uniform rotation pattern present (rotation verified)') 72
+   ('planted L=7 plus', 'verified P5-decompositions (hypothesis)') 75
+   ('planted L=9 changed', 'Lemma4 realized: block with cover') 1134
+   ('planted L=9 changed', 'M-triangles in hypothesis runs') 95
+   ('planted L=9 changed', 'defects') 1918
+   ('planted L=9 changed', 'hypothesis holds') 98
+   ('planted L=9 changed', 'non-simple pieces (hypothesis fails)') 6
+   ('planted L=9 changed', 'odd cycle length 9') 126
+   ('planted L=9 changed', 'odd cycles') 126
+   ('planted L=9 changed', 'runs') 126
+   ('planted L=9 changed', 'type-1 trades') 706
+   ('planted L=9 changed', 'verified P5-decompositions (hypothesis)') 98
+   ('planted L=9 changed-minus', 'Lemma4 realized: block with cover') 14
+   ('planted L=9 changed-minus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 211
+   ('planted L=9 changed-minus', 'defects') 461
+   ('planted L=9 changed-minus', 'hypothesis holds') 0
+   ('planted L=9 changed-minus', 'non-simple pieces (hypothesis fails)') 5
+   ('planted L=9 changed-minus', 'odd cycle length 9') 25
+   ('planted L=9 changed-minus', 'odd cycles') 25
+   ('planted L=9 changed-minus', 'rotation used') 18
+   ('planted L=9 changed-minus', 'runs') 25
+   ('planted L=9 changed-minus', 'type-1 trades') 218
+   ('planted L=9 changed-minus', 'uniform rotation pattern present (rotation verified)') 18
+   ('planted L=9 changed-plus', 'Lemma4 realized: block with cover') 49
+   ('planted L=9 changed-plus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 1301
+   ('planted L=9 changed-plus', 'M-triangles in hypothesis runs') 129
+   ('planted L=9 changed-plus', 'defects') 2783
+   ('planted L=9 changed-plus', 'hypothesis holds') 121
+   ('planted L=9 changed-plus', 'non-simple pieces (hypothesis fails)') 5
+   ('planted L=9 changed-plus', 'odd cycle length 9') 150
+   ('planted L=9 changed-plus', 'odd cycles') 150
+   ('planted L=9 changed-plus', 'rotation used') 129
+   ('planted L=9 changed-plus', 'runs') 150
+   ('planted L=9 changed-plus', 'type-1 trades') 1326
+   ('planted L=9 changed-plus', 'uniform rotation pattern present (rotation verified)') 129
+   ('planted L=9 changed-plus', 'verified P5-decompositions (hypothesis)') 121
+   ('planted L=9 fresh', 'Lemma4 realized: block with cover') 1007
+   ('planted L=9 fresh', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 1
+   ('planted L=9 fresh', 'M-triangles in hypothesis runs') 104
+   ('planted L=9 fresh', 'defects') 1084
+   ('planted L=9 fresh', 'hypothesis holds') 84
+   ('planted L=9 fresh', 'non-simple pieces (hypothesis fails)') 1
+   ('planted L=9 fresh', 'odd cycle length 9') 112
+   ('planted L=9 fresh', 'odd cycles') 112
+   ('planted L=9 fresh', 'runs') 112
+   ('planted L=9 fresh', 'type-1 trades') 24
+   ('planted L=9 fresh', 'verified P5-decompositions (hypothesis)') 84
+   ('planted L=9 minus', 'Lemma4 realized: block with cover') 10
+   ('planted L=9 minus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 152
+   ('planted L=9 minus', 'defects') 182
+   ('planted L=9 minus', 'hypothesis holds') 0
+   ('planted L=9 minus', 'non-simple pieces (hypothesis fails)') 3
+   ('planted L=9 minus', 'odd cycle length 9') 18
+   ('planted L=9 minus', 'odd cycles') 18
+   ('planted L=9 minus', 'rotation used') 13
+   ('planted L=9 minus', 'runs') 18
+   ('planted L=9 minus', 'type-1 trades') 5
+   ('planted L=9 minus', 'uniform rotation pattern present (rotation verified)') 13
+   ('planted L=9 plus', 'Lemma4 realized: block with cover') 42
+   ('planted L=9 plus', 'Lemma4 realized: open block failing with d1 in {A0,A2}') 777
+   ('planted L=9 plus', 'M-triangles in hypothesis runs') 98
+   ('planted L=9 plus', 'defects') 885
+   ('planted L=9 plus', 'hypothesis holds') 65
+   ('planted L=9 plus', 'non-simple pieces (hypothesis fails)') 1
+   ('planted L=9 plus', 'odd cycle length 9') 91
+   ('planted L=9 plus', 'odd cycles') 91
+   ('planted L=9 plus', 'rotation used') 74
+   ('planted L=9 plus', 'runs') 91
+   ('planted L=9 plus', 'type-1 trades') 26
+   ('planted L=9 plus', 'uniform rotation pattern present (rotation verified)') 74
+   ('planted L=9 plus', 'verified P5-decompositions (hypothesis)') 65
+   ('planted', 'generation failures') 1381
+   ('random', 'M-triangles in hypothesis runs') 120
+   ('random', 'defects') 420
+   ('random', 'graphs with M-squares') 35
+   ('random', 'graphs with M-triangles') 2
+   ('random', 'graphs') 35
+   ('random', 'hypothesis holds') 350
+   ('random', 'no hypothesis matching found') 13
+   ('random', 'odd cycles') 0
+   ('random', 'runs') 350
+   ('random', 'type-1 trades') 19
+   ('random', 'verified P5-decompositions (hypothesis)') 350
+ALL CHECKS PASSED
+
+real	11m20.342s
+user	0m0.000s
+sys	0m0.046s

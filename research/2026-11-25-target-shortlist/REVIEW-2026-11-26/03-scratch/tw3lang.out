@@ -1,0 +1,21 @@
+{"processed":0,"seen":63,"j4":0,"j3":0,"term":0,"max":15,"projs":0,"count4":63,"count3":0,"live":63}
+{"processed":100,"seen":249,"j4":278,"j3":10,"term":21,"max":61,"projs":79,"count4":208,"count3":41,"live":249}
+{"processed":200,"seen":666,"j4":1466,"j3":76,"term":241,"max":182,"projs":780,"count4":591,"count3":75,"live":664}
+{"processed":300,"seen":966,"j4":2676,"j3":121,"term":539,"max":943,"projs":1543,"count4":891,"count3":75,"live":964}
+{"processed":400,"seen":1157,"j4":3819,"j3":175,"term":870,"max":943,"projs":2458,"count4":1079,"count3":78,"live":1154}
+{"processed":500,"seen":1242,"j4":4756,"j3":191,"term":1233,"max":943,"projs":3322,"count4":1164,"count3":78,"live":1239}
+{"processed":600,"seen":1327,"j4":5569,"j3":195,"term":1539,"max":943,"projs":4061,"count4":1249,"count3":78,"live":1320}
+{"processed":700,"seen":1382,"j4":6212,"j3":198,"term":1859,"max":2293,"projs":4658,"count4":1304,"count3":78,"live":1374}
+{"processed":800,"seen":1420,"j4":6844,"j3":198,"term":2147,"max":2293,"projs":5278,"count4":1342,"count3":78,"live":1412}
+{"processed":900,"seen":1483,"j4":7629,"j3":198,"term":2480,"max":2718,"projs":5954,"count4":1405,"count3":78,"live":1475}
+{"processed":1000,"seen":1483,"j4":7949,"j3":198,"term":2719,"max":2718,"projs":6346,"count4":1405,"count3":78,"live":1475}
+{"processed":1100,"seen":1544,"j4":8898,"j3":215,"term":2946,"max":2718,"projs":7310,"count4":1466,"count3":78,"live":1536}
+{"processed":1200,"seen":1544,"j4":9456,"j3":215,"term":3282,"max":2718,"projs":7948,"count4":1466,"count3":78,"live":1536}
+{"processed":1300,"seen":1547,"j4":9842,"j3":215,"term":3569,"max":2718,"projs":8410,"count4":1469,"count3":78,"live":1539}
+{"processed":1400,"seen":1547,"j4":10150,"j3":215,"term":3827,"max":2718,"projs":8802,"count4":1469,"count3":78,"live":1539}
+{"processed":1500,"seen":1547,"j4":10530,"j3":215,"term":4033,"max":2718,"projs":9263,"count4":1469,"count3":78,"live":1539}
+{"processed":1540,"seen":1547,"j4":10669,"j3":215,"term":4129,"max":2718,"projs":9442,"count4":1469,"count3":78,"live":1539,"complete":true}
+
+real	1m39.759s
+user	0m0.000s
+sys	0m0.031s

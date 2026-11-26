@@ -1,0 +1,7 @@
+controls ok
+no counterexample {'A:K4': 4059, 'A:dsq': 3953, 'A:dtri': 3948, 'A:theta3': 3946, 'A:theta4': 4093, 'B:n0': 5763, 'B:n10': 22560, 'B:n20': 13872, 'B:n30': 1129}
+
+real	14m58.975s
+user	0m0.015s
+sys	0m0.015s
+exit 0

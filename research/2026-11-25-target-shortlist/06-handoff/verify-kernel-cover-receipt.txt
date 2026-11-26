@@ -1,0 +1,15 @@
+arcs normalized 8 23 8 [('direct',), ((0, 0, (0, 0, 0)), (0, 0, (0, 0, 0))), ((0, 0, (0, 0, 0)), (0, 0, (0, 0, 0)), (0, 0, (0, 0, 0))), ((0, 0, (0, 0, 0)),), ((0, 0, (0, 2, 0)),), ((1, 0, (0, 0, 1)),), ((1, 0, (0, 1, 0)),), ((1, 0, (0, 0, 2)),)]
+checking k4-cactus
+kernel coverage status 5000 9646826
+kernel coverage status 10000 14685782
+kernel coverage status 15000 15093252
+kernel certification passed at cube 15242
+seconds 3905.85724568367
+checking rank3-triangle
+kernel certification passed at cube 2209
+seconds 3.067394733428955
+checking rank3-double-square
+kernel coverage status 5000 1208003
+kernel coverage status 10000 1527352
+kernel certification passed at cube 13062
+seconds 231.20245909690857

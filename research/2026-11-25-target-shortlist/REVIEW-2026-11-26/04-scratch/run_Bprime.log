@@ -1,0 +1,328 @@
+== Lemma 4 / 4' under the M-diamond hypothesis (own enumeration) ==
+   ('G', 'closed', 'cover') 205
+   ('G', 'excluded (local M-diamond)') 243
+   ('G', 'open', 'cover') 548
+   ('G', 'open', 'no cover, d1 in {A0,A2}') 12
+   ('noG', 'closed', 'cover') 259
+   ('noG', 'excluded (local M-diamond)') 442
+   ('noG', 'open', 'cover') 564
+   ('noG', 'open', 'no cover, d1 in {A0,A2}') 24
+   cases with a local diamond avoiding M: 0 Counter()
+== end-to-end: graphs and planted generic data under the hypothesis ==
+   ('ALL', "Gamma' used") 17
+   ('ALL', 'G-config alpha') 845
+   ('ALL', 'G-config beta') 905
+   ('ALL', 'G-config gamma') 2745
+   ('ALL', 'G-pendant') 1806
+   ('ALL', 'Gamma used (Gtarget)') 85
+   ('ALL', 'Gamma used (type-2)') 147
+   ('ALL', 'Gtarget cycle length 2') 27
+   ('ALL', 'Gtarget cycle length 3') 44
+   ('ALL', 'Gtarget cycle length 4') 55
+   ('ALL', 'Gtarget cycle length 5') 66
+   ('ALL', 'Gtarget cycle length 6') 50
+   ('ALL', 'Gtarget cycle length 7') 64
+   ('ALL', 'Gtarget edges') 2083
+   ('ALL', 'Gtarget path length 1') 53
+   ('ALL', 'Gtarget path length 2') 36
+   ('ALL', 'Gtarget path length 3') 26
+   ('ALL', 'Gtarget path length 4') 24
+   ('ALL', 'Gtarget path length 5') 32
+   ('ALL', 'Gtarget path length 6') 22
+   ('ALL', 'Gtarget path length 8') 1
+   ('ALL', 'Q_c with changed h-end (alpha-link)') 79
+   ('ALL', 'Q_c with changed h-end (received)') 64
+   ('ALL', 'absorption, type-0 link') 317
+   ('ALL', 'absorption, type-1 link') 190
+   ('ALL', 'alpha partner with 1 partner ends') 461
+   ('ALL', 'alpha partner with 2 partner ends') 140
+   ('ALL', 'cancelled configurations') 863
+   ('ALL', 'existing config alpha') 741
+   ('ALL', 'existing config beta') 903
+   ('ALL', 'existing config gamma') 1988
+   ('ALL', 'odd Gtarget cycle: Gamma at a node') 99
+   ('ALL', 'odd Gtarget cycle: ROTATION') 75
+   ('ALL', 'odd type-2 cycle with G-pendant') 181
+   ('ALL', 'odd type-2 cycle: block') 186
+   ('ALL', 'received ends') 4857
+   ('graph-K5blocks', 'G-config alpha') 18
+   ('graph-K5blocks', 'G-config beta') 2
+   ('graph-K5blocks', 'G-config gamma') 2
+   ('graph-K5blocks', 'G-pendant') 4
+   ('graph-K5blocks', 'Gtarget edges') 0
+   ('graph-K5blocks', 'M-triangles') 235
+   ('graph-K5blocks', 'absorption, type-0 link') 2
+   ('graph-K5blocks', 'alpha partner with 1 partner ends') 18
+   ('graph-K5blocks', 'cancelled configurations') 0
+   ('graph-K5blocks', 'diamonds avoiding M') 240
+   ('graph-K5blocks', 'diamonds through M') 0
+   ('graph-K5blocks', 'existing config alpha') 18
+   ('graph-K5blocks', 'existing config beta') 2
+   ('graph-K5blocks', 'existing config gamma') 2
+   ('graph-K5blocks', 'first-sweep G-configurations') 22
+   ('graph-K5blocks', 'generation failed') 13
+   ('graph-K5blocks', 'graphs') 35
+   ('graph-K5blocks', 'non-M diamonds touching an M-triangle') 76
+   ('graph-K5blocks', 'received ends') 182
+   ('graph-K5blocks', 'verified decompositions') 280
+   ('graph-circulant', 'G-config alpha') 30
+   ('graph-circulant', 'G-config beta') 1
+   ('graph-circulant', 'G-config gamma') 4
+   ('graph-circulant', 'G-pendant') 2
+   ('graph-circulant', 'Gtarget edges') 1
+   ('graph-circulant', 'Gtarget path length 1') 1
+   ('graph-circulant', 'M-triangles') 280
+   ('graph-circulant', 'Q_c with changed h-end (alpha-link)') 1
+   ('graph-circulant', 'Q_c with changed h-end (received)') 6
+   ('graph-circulant', 'absorption, type-0 link') 2
+   ('graph-circulant', 'absorption, type-1 link') 1
+   ('graph-circulant', 'alpha partner with 1 partner ends') 29
+   ('graph-circulant', 'cancelled configurations') 1
+   ('graph-circulant', 'diamonds avoiding M') 285
+   ('graph-circulant', 'diamonds through M') 0
+   ('graph-circulant', 'existing config alpha') 29
+   ('graph-circulant', 'existing config beta') 1
+   ('graph-circulant', 'existing config gamma') 4
+   ('graph-circulant', 'first-sweep G-configurations') 35
+   ('graph-circulant', 'generation failed') 20
+   ('graph-circulant', 'graphs') 52
+   ('graph-circulant', 'non-M diamonds touching an M-triangle') 135
+   ('graph-circulant', 'received ends') 344
+   ('graph-circulant', 'verified decompositions') 416
+   ('planted', "Gamma' used") 17
+   ('planted', 'G-config alpha') 797
+   ('planted', 'G-config beta') 902
+   ('planted', 'G-config gamma') 2739
+   ('planted', 'G-pendant') 1800
+   ('planted', 'Gamma used (Gtarget)') 85
+   ('planted', 'Gamma used (type-2)') 147
+   ('planted', 'Gtarget cycle length 2') 27
+   ('planted', 'Gtarget cycle length 3') 44
+   ('planted', 'Gtarget cycle length 4') 55
+   ('planted', 'Gtarget cycle length 5') 66
+   ('planted', 'Gtarget cycle length 6') 50
+   ('planted', 'Gtarget cycle length 7') 64
+   ('planted', 'Gtarget edges') 2082
+   ('planted', 'Gtarget path length 1') 52
+   ('planted', 'Gtarget path length 2') 36
+   ('planted', 'Gtarget path length 3') 26
+   ('planted', 'Gtarget path length 4') 24
+   ('planted', 'Gtarget path length 5') 32
+   ('planted', 'Gtarget path length 6') 22
+   ('planted', 'Gtarget path length 8') 1
+   ('planted', 'Q_c with changed h-end (alpha-link)') 78
+   ('planted', 'Q_c with changed h-end (received)') 58
+   ('planted', 'absorption, type-0 link') 313
+   ('planted', 'absorption, type-1 link') 189
+   ('planted', 'alpha partner with 1 partner ends') 414
+   ('planted', 'alpha partner with 2 partner ends') 140
+   ('planted', 'cancelled configurations') 862
+   ('planted', 'diamonds avoiding M') 6620
+   ('planted', 'diamonds through M') 0
+   ('planted', 'existing config alpha') 694
+   ('planted', 'existing config beta') 900
+   ('planted', 'existing config gamma') 1982
+   ('planted', 'first-sweep G-configurations') 4438
+   ('planted', 'instances with a diamond avoiding M') 912
+   ('planted', 'instances') 1012
+   ('planted', 'non-M diamonds touching an M-triangle') 3233
+   ('planted', 'odd Gtarget cycle: Gamma at a node') 99
+   ('planted', 'odd Gtarget cycle: ROTATION') 75
+   ('planted', 'odd type-2 cycle with G-pendant') 181
+   ('planted', 'odd type-2 cycle: block') 186
+   ('planted', 'received ends') 4331
+   ('planted', 'repair failed (skipped)') 488
+   ('planted', 'verified decompositions') 1012
+  failures: 0
+== control: hypothesis OFF (M may lie in diamonds) ==
+   ('CONTROL graph-K5blocks', "FAILURE Prop B': non-simple first-sweep piece source (0, 1, 4, 2, 15, 4) is no") 1
+   ('CONTROL graph-K5blocks', "FAILURE Prop B': non-simple first-sweep piece source (17, 0, 9, 24, 25, 9) is ") 1
+   ('CONTROL graph-K5blocks', "FAILURE Prop B': non-simple first-sweep piece source (31, 4, 14, 12, 6, 14) is") 1
+   ('CONTROL graph-K5blocks', "FAILURE Prop B': non-simple first-sweep piece source (4, 0, 1, 15, 2, 1) is no") 1
+   ('CONTROL graph-K5blocks', "FAILURE Prop B': non-simple first-sweep piece source (5, 4, 15, 9, 17, 15) is ") 1
+   ('CONTROL graph-K5blocks', "FAILURE Prop B': non-simple first-sweep piece source (6, 5, 9, 0, 8, 9) is not") 1
+   ('CONTROL graph-K5blocks', "FAILURE Prop B': non-simple first-sweep piece source (7, 6, 8, 5, 4, 8) is not") 1
+   ('CONTROL graph-K5blocks', 'diamonds through M') 178
+   ('CONTROL graph-K5blocks', 'verified decompositions') 17
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (0, 18, 19, 16, 20, 19) i") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (0, 18, 19, 20, 16, 19) i") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (0, 22, 19, 0, 12, 19) is") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (0, 7, 6, 13, 10, 6) is n") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (10, 11, 1, 0, 4, 1) is n") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (10, 7, 0, 1, 14, 0) is n") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (11, 1, 0, 5, 2, 0) is no") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (12, 14, 10, 18, 2, 10) i") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (12, 3, 5, 13, 4, 5) is n") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (16, 22, 19, 0, 12, 19) i") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (18, 3, 1, 5, 10, 1) is n") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (2, 8, 4, 2, 7, 11) is no") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (20, 23, 27, 28, 21, 27) ") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (3, 11, 8, 10, 2, 8) is n") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (4, 3, 10, 11, 7, 10) is ") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (8, 10, 2, 9, 0, 2) is no") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (8, 4, 24, 26, 6, 24) is ") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (8, 7, 1, 0, 11, 1) is no") 1
+   ('CONTROL graph-circulant', "FAILURE Prop B': non-simple first-sweep piece source (9, 6, 16, 12, 0, 16) is ") 1
+   ('CONTROL graph-circulant', 'FAILURE piece not a simple 5-edge path: (10, 15, 12, 9, 10, 3)') 1
+   ('CONTROL graph-circulant', 'diamonds through M') 360
+   ('CONTROL graph-circulant', 'verified decompositions') 16
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (1, 5, 2, 4, 0, 2) is ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (14, 38, 37, 24, 35, 3") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (15, 5, 2, 4, 0, 2) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (18, 5, 2, 4, 0, 2) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (19, 30, 27, 29, 25, 2") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (21, 24, 22, 14, 20, 2") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (22, 28, 27, 11, 25, 2") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (23, 5, 2, 4, 0, 2) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (24, 23, 22, 15, 20, 2") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (25, 40, 38, 20, 36, 3") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (26, 5, 2, 4, 0, 2) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (3, 5, 2, 4, 0, 2) is ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (33, 11, 10, 1, 8, 10)") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (34, 45, 44, 31, 42, 4") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (39, 11, 10, 1, 8, 10)") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (43, 5, 2, 4, 0, 2) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (5, 35, 33, 17, 31, 33") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (57, 39, 37, 19, 35, 3") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (69, 30, 28, 15, 26, 2") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (70, 58, 57, 41, 55, 5") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece recipient (8, 34, 33, 6, 31, 33)") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (0, 19, 27, 13, 18, 27) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (0, 49, 50, 48, 47, 50) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (1, 10, 12, 3, 5, 12) is ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (1, 2, 3, 4, 0, 3) is not") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (10, 25, 26, 24, 23, 26) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (11, 15, 12, 19, 14, 12) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (11, 25, 9, 21, 20, 9) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (11, 8, 4, 6, 7, 4) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (11, 9, 14, 11, 13, 17) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (12, 17, 18, 16, 15, 18) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (12, 45, 46, 44, 43, 46) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (13, 11, 14, 13, 1, 17) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (13, 15, 27, 29, 14, 27) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (15, 11, 17, 19, 14, 17) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (15, 13, 16, 15, 2, 19) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (15, 22, 23, 21, 20, 23) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (15, 8, 17, 19, 14, 17) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (17, 15, 19, 17, 13, 19) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (18, 22, 23, 21, 20, 23) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (18, 37, 38, 36, 35, 38) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (18, 4, 8, 7, 6, 8) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (18, 8, 4, 6, 7, 4) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (18, 8, 5, 7, 6, 5) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (2, 0, 5, 2, 4, 14) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (2, 0, 5, 2, 4, 21) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (2, 0, 5, 2, 4, 23) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (2, 0, 5, 2, 4, 34) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (2, 0, 5, 2, 4, 5) is not") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (2, 0, 5, 2, 4, 8) is not") 3
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (20, 18, 19, 27, 5, 19) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (20, 19, 23, 25, 24, 23) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (20, 2, 3, 1, 0, 3) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (22, 20, 24, 22, 12, 26) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (22, 7, 21, 19, 23, 21) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (23, 21, 25, 23, 14, 25) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (23, 21, 25, 23, 14, 30) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (23, 22, 18, 20, 21, 18) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (23, 5, 2, 4, 3, 2) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (24, 10, 11, 9, 8, 11) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (24, 14, 15, 13, 12, 15) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (24, 22, 25, 24, 13, 28) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (25, 20, 2, 19, 18, 2) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (25, 54, 44, 51, 47, 44) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (25, 74, 78, 77, 76, 78) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (28, 10, 11, 9, 8, 11) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (28, 11, 12, 10, 9, 12) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (3, 17, 13, 15, 16, 13) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (30, 28, 31, 30, 12, 34) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (31, 15, 16, 29, 14, 16) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (31, 2, 3, 1, 0, 3) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (31, 40, 41, 39, 38, 41) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (31, 9, 6, 8, 7, 6) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (32, 11, 12, 10, 9, 12) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (32, 20, 31, 15, 33, 31) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (33, 31, 35, 33, 20, 3) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (36, 24, 28, 27, 26, 28) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (36, 4, 1, 3, 2, 1) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (36, 4, 8, 7, 6, 8) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (36, 49, 50, 47, 48, 50) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (37, 35, 40, 37, 39, 132)") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (38, 32, 28, 30, 31, 28) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (39, 25, 26, 24, 23, 26) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (4, 17, 12, 20, 13, 12) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (42, 2, 3, 1, 0, 3) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (44, 2, 3, 1, 0, 3) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (44, 42, 34, 43, 19, 34) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (47, 2, 3, 1, 0, 3) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (48, 37, 38, 36, 35, 38) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (49, 13, 17, 16, 15, 17) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (49, 47, 50, 49, 29, 72) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (5, 11, 12, 10, 9, 12) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (5, 3, 7, 5, 0, 10) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (51, 8, 4, 6, 7, 4) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (58, 61, 55, 50, 20, 55) ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (6, 2, 3, 1, 0, 3) is not") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (6, 5, 4, 11, 2, 4) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (6, 7, 1, 5, 13, 1) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (6, 8, 4, 6, 7, 11) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (7, 11, 12, 10, 9, 12) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (7, 30, 32, 27, 8, 32) is") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (7, 4, 5, 10, 0, 5) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (8, 6, 9, 8, 0, 12) is no") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (8, 7, 11, 10, 9, 11) is ") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (9, 14, 15, 13, 12, 15) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (9, 17, 13, 15, 16, 13) i") 1
+   ('CONTROL planted', "FAILURE Prop B': non-simple first-sweep piece source (9, 2, 3, 1, 0, 3) is not") 1
+   ('CONTROL planted', 'FAILURE piece not a simple 5-edge path: (1, 7, 0, 6, 1, 2)') 1
+   ('CONTROL planted', 'FAILURE piece not a simple 5-edge path: (11, 10, 13, 7, 11, 2)') 1
+   ('CONTROL planted', 'FAILURE piece not a simple 5-edge path: (13, 8, 9, 11, 13, 28)') 1
+   ('CONTROL planted', 'FAILURE piece not a simple 5-edge path: (22, 17, 18, 20, 22, 33)') 1
+   ('CONTROL planted', 'FAILURE piece not a simple 5-edge path: (33, 25, 29, 31, 33, 63)') 1
+   ('CONTROL planted', 'FAILURE piece not a simple 5-edge path: (50, 20, 46, 48, 50, 1)') 1
+   ('CONTROL planted', 'FAILURE piece not a simple 5-edge path: (59, 35, 55, 57, 59, 67)') 1
+   ('CONTROL planted', 'diamonds through M') 3266
+   ('CONTROL planted', 'verified decompositions') 60
+  control failures (expected > 0): 143
+== 04e windows W1-W8 with the own M-diamond filter ==
+  exact Q* alpha Y=plain: own-filter 221 = postfilter 221; full diamond-free 200
+  exact Q* alpha Y=received: own-filter 8428 = postfilter 8428; full diamond-free 7747
+  exact Q* alpha Y=linked: own-filter 10416 = postfilter 10416; full diamond-free 9845
+  exact Q* beta Y=plain: own-filter 24 = postfilter 24; full diamond-free 24
+  exact Q* beta Y=received: own-filter 1104 = postfilter 1104; full diamond-free 1035
+  exact Q* beta Y=linked: own-filter 1129 = postfilter 1129; full diamond-free 1129
+  exact P* alpha Z=plain: own-filter 221 = postfilter 221; full diamond-free 200
+  exact P* alpha Z=received: own-filter 5133 = postfilter 5133; full diamond-free 4718
+  exact P* alpha Z=linked: own-filter 10131 = postfilter 10131; full diamond-free 9449
+  exact P* beta source: own-filter 74 = postfilter 74; full diamond-free 74
+  exact P* beta recipient: own-filter 931 = postfilter 931; full diamond-free 922
+  exact W0 absorbed A=plain: own-filter 64 = postfilter 64; full diamond-free 63
+  exact W0 absorbed A=type1: own-filter 1410 = postfilter 1410; full diamond-free 1377
+  exact W0 absorbed A=Gpendant: own-filter 2157 = postfilter 2157; full diamond-free 2100
+  exact Q* gamma Y=plain: own-filter 20 = postfilter 20; full diamond-free 20
+  exact Q* gamma Y=received: own-filter 522 = postfilter 522; full diamond-free 490
+  exact Q* gamma Y=linked: own-filter 408 = postfilter 408; full diamond-free 408
+exactness mismatches: 0
+own filter self-test done
+G-rule and Gamma-rule are edge exchanges
+Q* alpha Y=plain: 221 identifications, 0 failures
+Q* alpha Y=received: 8428 identifications, 0 failures
+Q* alpha Y=linked: 10416 identifications, 0 failures
+Q* beta Y=plain: 24 identifications, 0 failures
+Q* beta Y=received: 1104 identifications, 0 failures
+Q* beta Y=linked: 1129 identifications, 0 failures
+P* alpha Z=plain: 221 identifications, 0 failures
+P* alpha Z=received: 5133 identifications, 0 failures
+P* alpha Z=linked: 10131 identifications, 0 failures
+P* beta source: 74 identifications, 0 failures
+P* beta recipient: 931 identifications, 0 failures
+W0 absorbed A=plain: 64 identifications, 0 failures
+W0 absorbed A=type1: 1410 identifications, 0 failures
+W0 absorbed A=Gpendant: 2157 identifications, 0 failures
+Q* gamma Y=plain: 20 identifications, 0 failures
+Q* gamma Y=received: 522 identifications, 0 failures
+Q* gamma Y=linked: 408 identifications, 0 failures
+Gamma type2 Y=plain A=plain: 1147 identifications, 0 failures
+Gamma type2 Y=plain A=type1: 29986 identifications, 0 failures
+Gamma type2 Y=plain A=linked: 36352 identifications, 0 failures
+Gamma type2 Y=received A=plain: 31280 identifications, 0 failures
+EXIT 124

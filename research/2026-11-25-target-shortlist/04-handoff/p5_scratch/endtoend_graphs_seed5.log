@@ -1,0 +1,7 @@
+﻿D-paths 1
+P5 timeout 1
+rule GammaD 1
+rule absorb 5
+rule alpha 180
+rule beta 16
+verified decompositions 539

@@ -1,0 +1,7 @@
+examples and generator cross-check passed
+{"order":13,"degreeFour":7,"progress":10000000}
+{"order":13,"total":12774537,"byDegreeFour":[(5, 79484), (7, 10760307), (13, 1934746)]}
+
+real	2m11.289s
+user	0m0.000s
+sys	0m0.000s

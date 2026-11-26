@@ -1,0 +1,131 @@
+== Lemma 4' (own enumeration) ==
+   ('closed', 'G', 'cover') 205
+   ('closed', 'noG', 'cover') 259
+   ('open', 'G', 'cover') 548
+   ('open', 'G', 'no cover, d1 in {A0,A2}') 12
+   ('open', 'noG', 'cover') 564
+   ('open', 'noG', 'no cover, d1 in {A0,A2}') 24
+   excluded (local diamond) 685
+== planted generic (M,r,s), diamond-free ==
+== random diamond-free graphs, Lemma 1 constructions ==
+   ('ALL', "Gamma' used") 48
+   ('ALL', 'G-config alpha') 2409
+   ('ALL', 'G-config beta') 2241
+   ('ALL', 'G-config gamma') 7273
+   ('ALL', 'G-pendant') 4462
+   ('ALL', 'Gamma used (Gtarget)') 215
+   ('ALL', 'Gamma used (type-2)') 451
+   ('ALL', 'Gtarget cycle length 2') 69
+   ('ALL', 'Gtarget cycle length 3') 135
+   ('ALL', 'Gtarget cycle length 4') 154
+   ('ALL', 'Gtarget cycle length 5') 143
+   ('ALL', 'Gtarget cycle length 6') 145
+   ('ALL', 'Gtarget cycle length 7') 158
+   ('ALL', 'Gtarget edges') 5556
+   ('ALL', 'Gtarget path length 1') 101
+   ('ALL', 'Gtarget path length 2') 88
+   ('ALL', 'Gtarget path length 3') 85
+   ('ALL', 'Gtarget path length 4') 74
+   ('ALL', 'Gtarget path length 5') 76
+   ('ALL', 'Gtarget path length 6') 83
+   ('ALL', 'Q_c with changed h-end (alpha-link)') 190
+   ('ALL', 'Q_c with changed h-end (received)') 268
+   ('ALL', 'absorption, type-0 link') 812
+   ('ALL', 'absorption, type-1 link') 432
+   ('ALL', 'alpha partner with 1 partner ends') 1446
+   ('ALL', 'alpha partner with 2 partner ends') 359
+   ('ALL', 'cancelled configurations') 2314
+   ('ALL', 'existing config alpha') 2164
+   ('ALL', 'existing config beta') 2231
+   ('ALL', 'existing config gamma') 5214
+   ('ALL', 'odd Gtarget cycle: Gamma at a node') 248
+   ('ALL', 'odd Gtarget cycle: ROTATION') 188
+   ('ALL', 'odd type-2 cycle with G-pendant') 436
+   ('ALL', 'odd type-2 cycle: block') 453
+   ('ALL', 'received ends') 14492
+   ('line-cubic', "Gamma' used") 1
+   ('line-cubic', 'G-config alpha') 193
+   ('line-cubic', 'G-config beta') 8
+   ('line-cubic', 'G-config gamma') 7
+   ('line-cubic', 'G-pendant') 16
+   ('line-cubic', 'Gamma used (type-2)') 1
+   ('line-cubic', 'Gtarget edges') 1
+   ('line-cubic', 'Gtarget path length 1') 1
+   ('line-cubic', 'Q_c with changed h-end (alpha-link)') 6
+   ('line-cubic', 'Q_c with changed h-end (received)') 9
+   ('line-cubic', 'absorption, type-0 link') 3
+   ('line-cubic', 'absorption, type-1 link') 1
+   ('line-cubic', 'alpha partner with 1 partner ends') 190
+   ('line-cubic', 'alpha partner with 2 partner ends') 1
+   ('line-cubic', 'cancelled configurations') 1
+   ('line-cubic', 'existing config alpha') 192
+   ('line-cubic', 'existing config beta') 8
+   ('line-cubic', 'existing config gamma') 7
+   ('line-cubic', 'graphs') 126
+   ('line-cubic', 'odd type-2 cycle: block') 2
+   ('line-cubic', 'received ends') 1333
+   ('line-cubic', 'triangles') 1964
+   ('line-cubic', 'verified decompositions') 1890
+   ('planted', "Gamma' used") 47
+   ('planted', 'G-config alpha') 2058
+   ('planted', 'G-config beta') 2218
+   ('planted', 'G-config gamma') 7257
+   ('planted', 'G-pendant') 4416
+   ('planted', 'Gamma used (Gtarget)') 215
+   ('planted', 'Gamma used (type-2)') 449
+   ('planted', 'Gtarget cycle length 2') 69
+   ('planted', 'Gtarget cycle length 3') 135
+   ('planted', 'Gtarget cycle length 4') 154
+   ('planted', 'Gtarget cycle length 5') 143
+   ('planted', 'Gtarget cycle length 6') 145
+   ('planted', 'Gtarget cycle length 7') 158
+   ('planted', 'Gtarget edges') 5554
+   ('planted', 'Gtarget path length 1') 99
+   ('planted', 'Gtarget path length 2') 88
+   ('planted', 'Gtarget path length 3') 85
+   ('planted', 'Gtarget path length 4') 74
+   ('planted', 'Gtarget path length 5') 76
+   ('planted', 'Gtarget path length 6') 83
+   ('planted', 'Q_c with changed h-end (alpha-link)') 179
+   ('planted', 'Q_c with changed h-end (received)') 245
+   ('planted', 'absorption, type-0 link') 802
+   ('planted', 'absorption, type-1 link') 431
+   ('planted', 'alpha partner with 1 partner ends') 1103
+   ('planted', 'alpha partner with 2 partner ends') 356
+   ('planted', 'cancelled configurations') 2312
+   ('planted', 'existing config alpha') 1815
+   ('planted', 'existing config beta') 2208
+   ('planted', 'existing config gamma') 5198
+   ('planted', 'odd Gtarget cycle: Gamma at a node') 248
+   ('planted', 'odd Gtarget cycle: ROTATION') 188
+   ('planted', 'odd type-2 cycle with G-pendant') 436
+   ('planted', 'odd type-2 cycle: block') 450
+   ('planted', 'received ends') 11398
+   ('planted', 'repair failed') 481
+   ('planted', 'verified decompositions') 2519
+   ('switch', 'G-config alpha') 158
+   ('switch', 'G-config beta') 15
+   ('switch', 'G-config gamma') 9
+   ('switch', 'G-pendant') 30
+   ('switch', 'Gamma used (type-2)') 1
+   ('switch', 'Gtarget edges') 1
+   ('switch', 'Gtarget path length 1') 1
+   ('switch', 'Q_c with changed h-end (alpha-link)') 5
+   ('switch', 'Q_c with changed h-end (received)') 14
+   ('switch', 'absorption, type-0 link') 7
+   ('switch', 'alpha partner with 1 partner ends') 153
+   ('switch', 'alpha partner with 2 partner ends') 2
+   ('switch', 'cancelled configurations') 1
+   ('switch', 'existing config alpha') 157
+   ('switch', 'existing config beta') 15
+   ('switch', 'existing config gamma') 9
+   ('switch', 'graphs') 126
+   ('switch', 'odd type-2 cycle: block') 1
+   ('switch', 'received ends') 1761
+   ('switch', 'triangles') 1196
+   ('switch', 'verified decompositions') 1890
+ALL CHECKS PASSED
+
+real	11m20.968s
+user	0m0.015s
+sys	0m0.031s
