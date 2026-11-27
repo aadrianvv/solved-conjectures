@@ -739,6 +739,8 @@ Run `python3 results/alexandersson-parking-excedance/verify.py`. The script chec
 
 The [Claesson–Dukes–Steingrímsson stack-sorting proof](../results/claesson-dukes-steingrimsson-stack-sorting/PROOF.md) uses an exhaustive count of eleven marked values. Run `pwsh -NoProfile -File results/claesson-dukes-steingrimsson-stack-sorting/verify.ps1` from the repository root with PowerShell 7, Python 3 and Node.js. The replay regenerates the integer coefficient table, checks the rational polynomial identity and boundary orders, and directly enumerates the three smallest orders.
 
+The partial Lean checkpoint is `Conjectures.ClaessonMain`. From `lean`, run `lake build Conjectures.ClaessonMain` and `lake env lean Conjectures\ClaessonSanity.lean`. The build checks the definitions, the complement identity, the ten-row polynomial identity, the exact-depth equivalence under Corollary 2.3, and the stars-and-bars completion factor. The marked-order enumeration and the filtered-prefix principle remain explicit hypotheses; see the [Lean checkpoint](claesson-formalization.md). The full `scripts/verify_lean.sh` replay was not run for this partial milestone.
+
 [Chaudhary–Khmiri–Mazhouda counterexample](../results/chaudhary-khmiri-mazhouda/PROOF.md): the exact interval certificate uses only Python's standard library. Run:
 
 ```sh

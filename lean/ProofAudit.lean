@@ -13519,7 +13519,17 @@ run_cmd do
     `Conjectures.CiobaSavvasShutout.shutout_numbers_ge_three,
     `Conjectures.CiobaSavvasShutout.sigma_ge_two_pow_div_eight,
     `Conjectures.CiobaSavvasShutout.shutout_numbers_nat_ge_three,
-    `Conjectures.CiobaSavvasShutout.sigmaNat_ge_two_pow_div_eight]
+    `Conjectures.CiobaSavvasShutout.sigmaNat_ge_two_pow_div_eight,
+    `Claesson.claim_of_markedCountIdentity,
+    `Claesson.claimExact_of_claim_and_corollary23,
+    `Claesson.claim_and_claimExact_of_markedCountIdentity,
+    `Claesson.claim_iff_claimBad,
+    `Claesson.markedBad_identity,
+    `Claesson.claim_iff_claimExact_of_corollary23,
+    `Claesson.westStackSort_filter,
+    `Claesson.sortingDepth_eq_succ,
+    `Claesson.westStackSort_eq_preflush_append_finalStack,
+    `Claesson.card_weakCompositions]
   for name in required do
     let _ ← getConstInfo name
   let allowed : Array Name := #[`propext, `Classical.choice, `Quot.sound]
