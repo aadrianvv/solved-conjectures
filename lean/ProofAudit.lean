@@ -13526,7 +13526,13 @@ run_cmd do
     `Claesson.claim_iff_claimBad,
     `Claesson.markedBad_identity,
     `Claesson.claim_iff_claimExact_of_corollary23,
+    `Claesson.permWord_perm_range,
+    `Claesson.sortedAfter_iff,
+    `Claesson.mem_W_iff_exists_forall_prefixAbove,
     `Claesson.westStackSort_filter,
+    `Claesson.prefixAbove_westStackSort_eq_preflush,
+    `Claesson.prefixAbove_westStackSort_iterate,
+    `Claesson.westStackSort_iterate_eq_identity_iff,
     `Claesson.sortingDepth_eq_succ,
     `Claesson.westStackSort_eq_preflush_append_finalStack,
     `Claesson.card_weakCompositions]

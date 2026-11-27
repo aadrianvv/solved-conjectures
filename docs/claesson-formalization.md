@@ -45,6 +45,7 @@ The checked modules are:
 | --- | --- |
 | `Conjectures.ClaessonDefs` | `W`, `sortedAfter`, `Claim`, `ClaimBad`, monotonicity |
 | `Conjectures.ClaessonStack` | pre-flush map, threshold commutation, sorting depth |
+| `Conjectures.ClaessonFiltered` | filtered-prefix principle and sorting characterization |
 | `Conjectures.ClaessonArithmetic` | complement cubic, ten-row coefficient table, exact `n ≥ 11` identity |
 | `Conjectures.ClaessonExactDepth` | exact-depth layer, Corollary 2.3 equivalence, stars and bars |
 | `Conjectures.ClaessonMain` | assembly of the conditional theorem |
@@ -75,6 +76,14 @@ The checked modules are:
   and final stack decomposition.
 - `Claesson.sortingDepth_eq_succ` and `Claesson.excess`: the pre-flush depth
   statistic decreases by exactly one per pass on nonempty words.
+- `Claesson.prefixAbove_westStackSort_eq_preflush`: the one-pass filtered-prefix
+  identity `X_b(s(w)) = p(X_b(w))`.
+- `Claesson.prefixAbove_westStackSort_iterate`: its iterated form
+  `X_b(s^k(w)) = p^k(X_b(w))`.
+- `Claesson.westStackSort_iterate_eq_identity_iff`: Zhang's filtered-prefix
+  principle, `s^k(w)` sorted ↔ `p^k(X_b(w)) = []` for every value `b`.
+- `Claesson.mem_W_iff_exists_forall_prefixAbove`: the same characterization
+  stated directly for the counting set `W`.
 
 ## The remaining hypothesis
 
@@ -109,11 +118,7 @@ are the direct stack-sorting values `n! - 21426`, `n! - 229860` and
 The following are also not formalized and are recorded as open dependencies:
 
 1. The marked-order inclusion–exclusion identity itself.
-2. The filtered-prefix principle of Zhang in the iterated form
-   `s^k(w)` sorted ↔ `p^k(X_b(w)) = []` for every value `b`, and its
-   witness-bound corollary.  The pre-flush map and the statistics are defined,
-   but the equivalence is not proved.
-3. Corollary 2.3 of the paper.  It is used as an explicit hypothesis for the
+2. Corollary 2.3 of the paper.  It is used as an explicit hypothesis for the
    exact-depth equivalence only.
 
 ## Verification
@@ -141,6 +146,10 @@ Claesson.W_zero
 Claesson.six_mul_exactDepthPolynomial
 Claesson.card_weakCompositions
 Claesson.westStackSort_filter
+Claesson.prefixAbove_westStackSort_eq_preflush
+Claesson.prefixAbove_westStackSort_iterate
+Claesson.westStackSort_iterate_eq_identity_iff
+Claesson.mem_W_iff_exists_forall_prefixAbove
 Claesson.sortingDepth_eq_succ
 Claesson.westStackSort_eq_preflush_append_finalStack
 ```

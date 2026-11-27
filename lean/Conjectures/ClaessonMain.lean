@@ -5,6 +5,7 @@ Authors: a small swarm of DeepSeek V4.1 Flash 1017
 -/
 import Conjectures.ClaessonArithmetic
 import Conjectures.ClaessonExactDepth
+import Conjectures.ClaessonFiltered
 import Conjectures.ClaessonStack
 
 /-!
@@ -16,6 +17,8 @@ Conjecture 2.4 of Claesson, Dukes and Steingrímsson,
 
 * `Conjectures.ClaessonStack`: the pre-flush map, deletion commutation and the
   sorting-depth statistics;
+* `Conjectures.ClaessonFiltered`: the filtered-prefix principle
+  `s^k(w)` sorted ↔ `p^k(X_b(w)) = []` for every value `b`;
 * `Conjectures.ClaessonArithmetic`: the complement cubic, the ten-row
   coefficient table from `coefficients.csv`, and the exact polynomial identity
   for every `n ≥ 11`;
@@ -34,6 +37,37 @@ assumes the conjecture it proves.
 namespace Claesson
 
 open LassalleRefinement
+
+/-- `sortedAfter` unwound to a bounded existential over iterates. -/
+theorem sortedAfter_iff {n t : ℕ} (p : Equiv.Perm (Fin n)) :
+    sortedAfter t p = true ↔
+      ∃ k ≤ t, (westStackSort^[k]) (permWord p) = identityWord n := by
+  unfold sortedAfter
+  rw [List.any_eq_true]
+  constructor
+  · rintro ⟨k, hk, hkp⟩
+    exact ⟨k, by simpa using List.mem_range.mp hk, by simpa using hkp⟩
+  · rintro ⟨k, hk, hkp⟩
+    exact ⟨k, List.mem_range.mpr (by omega), by simpa using hkp⟩
+
+/-- Membership in `W` in the filtered-prefix form of Zhang's principle: some
+iterate up to the budget empties every filtered prefix. -/
+theorem mem_W_iff_exists_forall_prefixAbove {n t : ℕ} (p : Equiv.Perm (Fin n)) :
+    p ∈ W n t ↔
+      ∃ k ≤ t, ∀ b ∈ permWord p,
+        (preflush^[k]) (prefixAbove b (permWord p)) = [] := by
+  rw [mem_W, sortedAfter_iff]
+  have hlen : (permWord p).length = n := by simp [permWord]
+  constructor
+  · rintro ⟨k, hk, hsort⟩
+    have hsort' : (westStackSort^[k]) (permWord p) = identityWord (permWord p).length := by
+      simpa [← hlen] using hsort
+    exact ⟨k, hk,
+      (westStackSort_iterate_eq_identity_iff (permWord p) (permWord_perm_range_length p) k).mp hsort'⟩
+  · rintro ⟨k, hk, hpref⟩
+    have hsort' :=
+      (westStackSort_iterate_eq_identity_iff (permWord p) (permWord_perm_range_length p) k).mpr hpref
+    exact ⟨k, hk, by simpa [hlen] using hsort'⟩
 
 /-- The finite part of the repository proof that has not been formalized:
 the marked-order inclusion–exclusion count equals the number of permutations

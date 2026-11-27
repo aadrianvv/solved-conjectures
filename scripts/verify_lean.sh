@@ -3651,6 +3651,7 @@ modules=(
   Conjectures.CiobaSavvasShutout
   Conjectures.ClaessonDefs
   Conjectures.ClaessonStack
+  Conjectures.ClaessonFiltered
   Conjectures.ClaessonArithmetic
   Conjectures.ClaessonExactDepth
   Conjectures.ClaessonMain

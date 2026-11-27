@@ -12,4 +12,4 @@ This proves [Conjecture 2.4](https://arxiv.org/abs/0812.0143v2) in *Permutations
 - [Review, prior work and attribution](AUDIT.md)
 - [Reproduce the enumeration, arithmetic and base cases](verify.ps1)
 
-**Lean status:** partially formalized. The statement, the complement form, the ten-row polynomial identity, the exact-depth equivalence and the stars-and-bars factor are checked in `lean/Conjectures/Claesson*.lean`; the marked-order enumeration and the filtered-prefix principle remain explicit hypotheses. See the [Lean checkpoint](../../docs/claesson-formalization.md) and the [assembly module](../../lean/Conjectures/ClaessonMain.lean).
+**Lean status:** partially formalized. The statement, the complement form, the filtered-prefix principle, the ten-row polynomial identity, the exact-depth equivalence and the stars-and-bars factor are checked in `lean/Conjectures/Claesson*.lean`; the marked-order enumeration remains an explicit hypothesis. See the [Lean checkpoint](../../docs/claesson-formalization.md) and the [assembly module](../../lean/Conjectures/ClaessonMain.lean).

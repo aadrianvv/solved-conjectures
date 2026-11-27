@@ -2065,6 +2065,7 @@ import Conjectures.CiobaSavvasShutoutStrategy
 import Conjectures.CiobaSavvasShutout
 import Conjectures.ClaessonDefs
 import Conjectures.ClaessonStack
+import Conjectures.ClaessonFiltered
 import Conjectures.ClaessonArithmetic
 import Conjectures.ClaessonExactDepth
 import Conjectures.ClaessonMain

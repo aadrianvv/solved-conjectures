@@ -5,6 +5,7 @@ Authors: a small swarm of DeepSeek V4.1 Flash 1017
 -/
 import Mathlib.Data.Int.Basic
 import Mathlib.Data.Nat.Factorial.Basic
+import Mathlib.Data.List.FinRange
 import Conjectures.LassalleStackSorting
 
 /-!
@@ -38,6 +39,28 @@ def sortedAfter {n : ℕ} (t : ℕ) (p : Equiv.Perm (Fin n)) : Bool :=
 passes through West's stack. -/
 def W (n t : ℕ) : Finset (Equiv.Perm (Fin n)) :=
   Finset.univ.filter fun p => sortedAfter t p = true
+
+/-- The one-line notation of a permutation is a permutation of `0, ..., n - 1`. -/
+theorem permWord_perm_range {n : ℕ} (p : Equiv.Perm (Fin n)) :
+    (permWord p).Perm (List.range n) := by
+  have h := (Equiv.Perm.map_finRange_perm p).map (fun i : Fin n => i.val)
+  have h1 : ((List.finRange n).map p).map (fun i : Fin n => i.val) = permWord p := by
+    rw [List.map_map]
+    unfold permWord
+    rw [List.ofFn_eq_map]
+    rfl
+  rw [h1] at h
+  have h2 : (List.finRange n).map (fun i : Fin n => i.val) = List.range n := by
+    apply List.ext_getElem
+    · simp
+    · intro i hi1 hi2
+      simp
+  simpa [h2] using h
+
+/-- The same statement with the length of the word on the right. -/
+theorem permWord_perm_range_length {n : ℕ} (p : Equiv.Perm (Fin n)) :
+    (permWord p).Perm (List.range (permWord p).length) := by
+  simpa [permWord] using permWord_perm_range p
 
 /-- Membership in `W` in terms of the iterated map. -/
 theorem mem_W {n t : ℕ} {p : Equiv.Perm (Fin n)} :
