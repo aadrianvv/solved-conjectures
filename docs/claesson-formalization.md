@@ -48,6 +48,7 @@ The checked modules are:
 | `Conjectures.ClaessonFiltered` | filtered-prefix principle and sorting characterization |
 | `Conjectures.ClaessonArithmetic` | complement cubic, ten-row coefficient table, exact `n ≥ 11` identity |
 | `Conjectures.ClaessonExactDepth` | exact-depth layer, Corollary 2.3 equivalence, stars and bars |
+| `Conjectures.ClaessonWitness` | witness bound `b + t_b + e(X_b) ≤ 3` |
 | `Conjectures.ClaessonMain` | assembly of the conditional theorem |
 | `Conjectures.ClaessonSanity` | small kernel checks (`W 3 1 = 5`, `W 4 1 = 14`, …) |
 
@@ -84,6 +85,13 @@ The checked modules are:
   principle, `s^k(w)` sorted ↔ `p^k(X_b(w)) = []` for every value `b`.
 - `Claesson.mem_W_iff_exists_forall_prefixAbove`: the same characterization
   stated directly for the counting set `W`.
+- `Claesson.prefixAbove_length_add_afterCount`: for a permutation of
+  `0, ..., n-1`, the filtered prefix `X_b` and the entries larger than `b`
+  after `b` satisfy `|X_b| + t_b = n - 1 - b`.
+- `Claesson.exists_witness_of_not_mem_W`: every permutation not sorted by
+  `n - 5` passes has a letter `b` with
+  `b + t_b + excess(X_b) ≤ 3`.  This is the paper's
+  `b + t_b + e(X_b) ≤ 4` after shifting the labels down by one.
 
 ## The remaining hypothesis
 
@@ -117,7 +125,11 @@ are the direct stack-sorting values `n! - 21426`, `n! - 229860` and
 
 The following are also not formalized and are recorded as open dependencies:
 
-1. The marked-order inclusion–exclusion identity itself.
+1. The marked-order inclusion–exclusion identity itself.  The witness bound
+   above reduces every bad permutation to one of the letters
+   `b ∈ {0, 1, 2, 3}` with a bounded excess, but the finite enumeration of
+   the eleven marked labels and the resulting ten coefficients is not
+   formalized.
 2. Corollary 2.3 of the paper.  It is used as an explicit hypothesis for the
    exact-depth equivalence only.
 
@@ -150,6 +162,9 @@ Claesson.prefixAbove_westStackSort_eq_preflush
 Claesson.prefixAbove_westStackSort_iterate
 Claesson.westStackSort_iterate_eq_identity_iff
 Claesson.mem_W_iff_exists_forall_prefixAbove
+Claesson.prefixAbove_length_add_afterCount
+Claesson.exists_witness_of_not_sortedAfter
+Claesson.exists_witness_of_not_mem_W
 Claesson.sortingDepth_eq_succ
 Claesson.westStackSort_eq_preflush_append_finalStack
 ```

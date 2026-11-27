@@ -3654,6 +3654,7 @@ modules=(
   Conjectures.ClaessonFiltered
   Conjectures.ClaessonArithmetic
   Conjectures.ClaessonExactDepth
+  Conjectures.ClaessonWitness
   Conjectures.ClaessonMain
   Conjectures.ClaessonSanity
 )

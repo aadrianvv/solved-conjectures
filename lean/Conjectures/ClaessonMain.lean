@@ -6,6 +6,7 @@ Authors: a small swarm of DeepSeek V4.1 Flash 1017
 import Conjectures.ClaessonArithmetic
 import Conjectures.ClaessonExactDepth
 import Conjectures.ClaessonFiltered
+import Conjectures.ClaessonWitness
 import Conjectures.ClaessonStack
 
 /-!
@@ -25,6 +26,9 @@ Conjecture 2.4 of Claesson, Dukes and Steingrímsson,
 * `Conjectures.ClaessonExactDepth`: the exact-depth layer, the stars-and-bars
   completion factor, and the algebraic equivalence of the two displayed forms
   of Conjecture 2.4 assuming the paper's Corollary 2.3.
+
+The witness reduction from an unsorted iterate to a letter `b` with
+`b + t_b + e(X_b) ≤ 3` is proved in `Conjectures.ClaessonWitness`.
 
 The one mathematical input not formalized here is the marked-order
 inclusion–exclusion identity turning the finite `11!` enumeration into the

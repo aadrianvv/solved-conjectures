@@ -13533,6 +13533,9 @@ run_cmd do
     `Claesson.prefixAbove_westStackSort_eq_preflush,
     `Claesson.prefixAbove_westStackSort_iterate,
     `Claesson.westStackSort_iterate_eq_identity_iff,
+    `Claesson.prefixAbove_length_add_afterCount,
+    `Claesson.exists_witness_of_not_sortedAfter,
+    `Claesson.exists_witness_of_not_mem_W,
     `Claesson.sortingDepth_eq_succ,
     `Claesson.westStackSort_eq_preflush_append_finalStack,
     `Claesson.card_weakCompositions]

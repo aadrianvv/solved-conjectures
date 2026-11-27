@@ -2068,5 +2068,6 @@ import Conjectures.ClaessonStack
 import Conjectures.ClaessonFiltered
 import Conjectures.ClaessonArithmetic
 import Conjectures.ClaessonExactDepth
+import Conjectures.ClaessonWitness
 import Conjectures.ClaessonMain
 import Conjectures.ClaessonSanity
