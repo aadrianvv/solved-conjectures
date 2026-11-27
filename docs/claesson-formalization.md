@@ -17,12 +17,16 @@ proved.  The result therefore remains `⬜` in the ranked catalogue.
 `Conjectures/ClaessonDefs.lean` defines West's iterated stack sort on
 one-line permutations of `Fin n` and the set
 
+**Lean excerpt**
+
 ```lean
 def W (n t : ℕ) : Finset (Equiv.Perm (Fin n))
 ```
 
 of permutations sorted by at most `t` passes.  The conjecture is the
 cleared-denominator integer statement
+
+**Lean excerpt**
 
 ```lean
 def Claim : Prop :=
@@ -76,6 +80,8 @@ The checked modules are:
 
 `Conjectures/ClaessonMain.lean` defines
 
+**Lean excerpt**
+
 ```lean
 def MarkedCountIdentity : Prop :=
   (∀ n : ℕ, 11 ≤ n →
@@ -86,6 +92,8 @@ def MarkedCountIdentity : Prop :=
 ```
 
 and proves
+
+**Lean excerpt**
 
 ```lean
 theorem claim_of_markedCountIdentity (h : MarkedCountIdentity) : Claim
